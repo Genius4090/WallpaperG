@@ -11,25 +11,28 @@ import {
   createRoutesFromElements,
   RouterProvider,
   Route,
+  Navigate  
 } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 
 
 function App() {
+
+
   const routes = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
+        <Route path="home" element={<Navigate to="/" replace />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="cards" element={<TripList />} />
         <Route path="about" element={<About />} />
-        {/* Add ProfilePage route here */}
         <Route path="pixel" element={<Pixel />} />
         <Route path="profile" element={<ProfilePage />} />
-
       </Route>
     )
   );
+  
 
   return (
     <div className="App">
