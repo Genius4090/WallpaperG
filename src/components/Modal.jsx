@@ -3,7 +3,6 @@ import '../styles/Modal.css';
 
 function Modal({ selected, closeModal }) {
   const [isCollected, setIsCollected] = useState(false);
-  const [isClosing, setIsClosing] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   // Check if the image is in the collection when the modal opens
@@ -43,22 +42,18 @@ function Modal({ selected, closeModal }) {
       .catch(error => console.error('Download error:', error));
   };
 
-  const handleCloseModal = () => {
-    setIsClosing(true);
-    setTimeout(() => {
+  const handleCloseModal = (e) => {
+    if (e.target.classList.contains('modal-overlay')) {
       closeModal();
-    }, 300);
+    }
   };
 
   return (
     <div className="modal-overlay" onClick={handleCloseModal}>
-      <div
-        className={`triplist__modal__content animate__animated ${isClosing ? 'animate__fadeOutUp' : 'animate__fadeInDown'}`}
-        onClick={(e) => e.stopPropagation()}
-      >
+      <div className="triplist__modal__content">
         <div className='modal__box1'>
           <p className='modal__title'>{selected.title}</p>
-          <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
+          <i onClick={closeModal} className="bx bx-x modal__close__btn"></i>
         </div>
         <div className='modal__image__box'>
           {isLoading && <p className='loading__text'>Loading...</p>}
