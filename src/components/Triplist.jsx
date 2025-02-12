@@ -10,7 +10,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { debounce } from "lodash";
 import "../styles/Triplist.css";
 import { useFetch } from "../hooks/useFetch";
-import ScrollToTop from "../components/ScrollToTop";
+import ScrollToTop from "./ScrollToTop";
 const Modal = React.lazy(() => import("./Modal"));
 import LazyBackground from './LazyBackground'; // Adjust the import path as necessary
 
