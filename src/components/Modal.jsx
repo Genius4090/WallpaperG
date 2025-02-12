@@ -26,8 +26,20 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
   };
 
   const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".jpg"; 
-    setDownloadLink({ image: selected.orig, fileName });
+    const fileName = selected.title ? selected.title.split(" ").join("_") + ".jpg" : "default_title.jpg";
+
+    fetch(selected.orig)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch(error => console.error('Download error:', error));
   };
 
   const handleCloseModal = () => {
