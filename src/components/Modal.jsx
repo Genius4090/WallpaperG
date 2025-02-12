@@ -1,14 +1,23 @@
 import React, { useEffect, useState, memo } from 'react';
 import '../styles/Modal.css';
 
-function Modal({ selected, closeModal}) {
+function Modal({ selected, closeModal }) {
   const [isCollected, setIsCollected] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
+  const [imageDimensions, setImageDimensions] = useState({ width: 0, height: 0 });
 
-  // Check if the image is in the collection when the modal opens
   useEffect(() => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
-    setIsCollected(currentCollection.some((item) => item.orig === selected.orig)); 
+    setIsCollected(currentCollection.some((item) => item.orig === selected.orig));
+
+    // Preload image to get dimensions
+    const img = new Image();
+    img.src = selected.orig;
+    img.onload = () => {
+      setImageDimensions({ width: img.width, height: img.height });
+      setIsImageLoaded(true);
+    };
   }, [selected.orig]);
 
   const handleToggleCollection = () => {
@@ -26,15 +35,15 @@ function Modal({ selected, closeModal}) {
   };
 
   const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".jpg"; // Using title for file name
+    const fileName = selected.title.split(" ").join("_") + ".jpg";
 
-    fetch(selected.orig)  // Fetch the image using the orig URL
+    fetch(selected.orig)
       .then(response => response.blob())
       .then(blob => {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement("a");
         link.href = url;
-        link.download = fileName;  // Set download file name
+        link.download = fileName;
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -59,11 +68,13 @@ function Modal({ selected, closeModal}) {
           <p className='modal__title'>{selected.title}</p>
           <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
         </div>
-        <div className='modal__image__box'>
+        <div className='modal__image__box' style={{ width: imageDimensions.width, height: imageDimensions.height }}>
+          {!isImageLoaded && <div className="skeleton-loader" style={{ width: '100%', height: '100%' }}></div>}
           <img
             className="modal-image"
             src={selected.orig}
             alt={selected.title}
+            style={{ display: isImageLoaded ? 'block' : 'none' }}
           />
         </div>
 
