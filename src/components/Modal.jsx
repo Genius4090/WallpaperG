@@ -25,9 +25,13 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
     }
   };
   const handleDownload = () => {
-    // Create a custom filename using the selected title
-    const fileName = selected.title.split(" ").join("_") + ".png"; // Using .png extension
-    setDownloadLink({ image: selected.orig, fileName });
+    const fileName = selected.title.split(" ").join("_") + ".png"; // Custom file name
+    const link = document.createElement("a");
+    link.href = selected.orig;
+    link.download = fileName; // Set the custom filename
+    document.body.appendChild(link); // Append the link to the body
+    link.click(); // Trigger the download
+    document.body.removeChild(link); // Clean up the link after the download
   };
   
 
