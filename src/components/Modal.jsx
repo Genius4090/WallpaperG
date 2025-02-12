@@ -4,7 +4,7 @@ import '../styles/Modal.css';
 function Modal({ selected, closeModal }) {
   const [isCollected, setIsCollected] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
-  const [imageLoaded, setImageLoaded] = useState(false);  // Track if the image is loaded
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
@@ -60,7 +60,7 @@ function Modal({ selected, closeModal }) {
         className={`triplist__modal__content animate__animated ${isClosing ? 'animate__fadeOutUp' : 'animate__fadeInDown'}`}
         onClick={(e) => e.stopPropagation()}
         style={{
-          width: imageLoaded ? 'auto' : '100%', // Set width dynamically based on image loading state
+          width: imageLoaded ? `${selected.resolutionX}px` : '100%',  // Use resolutionX for modal width
         }}
       >
         <div className="modal__box1">
