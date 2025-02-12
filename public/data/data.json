@@ -2,6 +2,7 @@
   "trips": [
     {
       "id": 1,
+      "extend" : "./extend/extend_wallpaper_2.jpg"   ,
       "title": "Sunflower girl",
       "genre": ["4K", "Anime"],
       "resolutionX": "5120",
