@@ -3,16 +3,18 @@ import '../styles/Modal.css';
 
 function Modal({ selected, closeModal }) {
   const [isCollected, setIsCollected] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [isClosing, setIsClosing] = useState(false);
-  const [isImageLoaded, setIsImageLoaded] = useState(false);
 
+  // Check if the image is in the collection when the modal opens
   useEffect(() => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
-    setIsCollected(currentCollection.some((item) => item.orig === selected.orig));
+    setIsCollected(currentCollection.some((item) => item.orig === selected.orig)); 
   }, [selected.orig]);
 
   const handleToggleCollection = () => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
+
     if (isCollected) {
       const updatedCollection = currentCollection.filter((img) => img.orig !== selected.orig);
       localStorage.setItem('collectedImages', JSON.stringify(updatedCollection));
@@ -25,14 +27,15 @@ function Modal({ selected, closeModal }) {
   };
 
   const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".jpg";
-    fetch(selected.orig)
+    const fileName = selected.title.split(" ").join("_") + ".jpg"; // Using title for file name
+
+    fetch(selected.orig)  // Fetch the image using the orig URL
       .then(response => response.blob())
       .then(blob => {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement("a");
         link.href = url;
-        link.download = fileName;
+        link.download = fileName;  // Set download file name
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -47,60 +50,64 @@ function Modal({ selected, closeModal }) {
     }, 300);
   };
 
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div className="modal-overlay" onClick={handleCloseModal}>
-      <div
-        className={`triplist__modal__content animate__animated ${isClosing ? 'animate__fadeOutUp' : 'animate__fadeInDown'} ${isImageLoaded ? 'loaded' : 'loading'}`}
-        onClick={(e) => e.stopPropagation()}
-      >
-        <div className='modal__box1'>
-          <p className='modal__title'>{selected.title}</p>
-          <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
-        </div>
-
-        <div className='modal__image__box'>
-          {!isImageLoaded && <div className="modal-loading-spinner"></div>}
-          <img
-            className="modal-image"
-            src={selected.orig}
-            alt={selected.title}
-            onLoad={() => setIsImageLoaded(true)}
-            style={{ display: isImageLoaded ? 'block' : 'none' }}
-          />
-        </div>
-
-        <div className='modal__box2'>
-          <div className='modal__minibox__1'>
-            <h2 className='modal__resolution__text'>
-              <i className="ri-computer-line modal__pc__icon"></i>
-              {selected.resolutionX} <i className="bx bx-x resolution__text__space"></i> {selected.resolutionY}
-            </h2>
-            <h2 className='modal__size__text'>
-              <i className="ri-download-2-line modal__size__icon"></i> {selected.size} MB
-            </h2>
+      {isLoading && <div className="loading-text">Loading...</div>}
+      {!isLoading && (
+        <div
+          className={`triplist__modal__content animate__animated ${isClosing ? 'animate__fadeOutUp' : 'animate__fadeInDown'}`}
+          onClick={(e) => e.stopPropagation()}
+        >
+          <div className='modal__box1'>
+            <p className='modal__title'>{selected.title}</p>
+            <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
+          </div>
+          <div className='modal__image__box'>
+            <img
+              className="modal-image"
+              src={selected.orig}
+              alt={selected.title}
+              onLoad={handleImageLoad}
+            />
           </div>
 
-          <div className='modal__minibox__2'>
-            <button
-              className='modal__collect__btn'
-              onClick={handleToggleCollection}
-              style={{
-                backgroundColor: isCollected ? '#6200ea' : 'rgba(255, 0, 170, 1)',
-              }}
-            >
-              {isCollected ? (
-                <i className="ri-bookmark-fill modal__iscollected__icon"></i>
-              ) : (
-                <i className="ri-bookmark-line modal__iscollected__icon"></i>
-              )}
-              {isCollected ? 'Remove' : 'Collect'}
-            </button>
-            <button className='modal__download__btn' onClick={handleDownload}>
-              Download
-            </button>
+          <div className='modal__box2'>
+            <div className='modal__minibox__1'>
+              <h2 className='modal__resolution__text'>
+                <i className="ri-computer-line modal__pc__icon"></i>
+                {selected.resolutionX} <i className="bx bx-x resolution__text__space"></i> {selected.resolutionY}
+              </h2>
+              <h2 className='modal__size__text'>
+                <i className="ri-download-2-line modal__size__icon"></i> {selected.size} MB
+              </h2>
+            </div>
+
+            <div className='modal__minibox__2'>
+              <button
+                className='modal__collect__btn'
+                onClick={handleToggleCollection}
+                style={{
+                  backgroundColor: isCollected ? '#6200ea' : 'rgba(255, 0, 170, 1)',
+                }}
+              >
+                {isCollected ? (
+                  <i className="ri-bookmark-fill modal__iscollected__icon"></i>
+                ) : (
+                  <i className="ri-bookmark-line modal__iscollected__icon"></i>
+                )}
+                {isCollected ? 'Remove' : 'Collect'}
+              </button>
+              <button className='modal__download__btn' onClick={handleDownload}>
+                Download
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
