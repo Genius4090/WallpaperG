@@ -88,7 +88,11 @@ function Modal({ selected, closeModal }) {
         <div className="modal__image__box">
           {loading ? (
             <Skeleton
-              sx={{ bgcolor: 'grey.900' }}
+              sx={{
+                bgcolor: 'grey.900',
+                borderRadius: '4px',
+                margin: 'auto', // Center it if necessary
+              }}
               variant="rectangular"
               width="100%"
               height={602} // Same height as your image
@@ -144,3 +148,4 @@ function Modal({ selected, closeModal }) {
 }
 
 export default memo(Modal);
+``
