@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+.pixel__father {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(8, 9, 15);
+}
+.pixel__header__section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pixel__heading__box {
+  width: 100%;
+
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.pixel__list__box {
+  display: flex;
+  width: auto;
+  margin-top: 80px;
+}
+.pixel__text__box {
+  width: 508px;
+}
+.pixel__video {
+  width: 500px;
+  height: 500px;
+}
+
+.pixel__heading__p1 {
+  font-family: Archivo;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  background-image: linear-gradient(
+    45deg,
+    rgba(136, 0, 255, 1) 28%,
+    rgba(255, 0, 140, 1) 70%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.pixel__heading__p2 {
+  font-family: Archivo;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+}
+
+.pixel__list__ul__first,
+.pixel__list__ul__second {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-left: -20px;
+}
+.pixel__list__ul__first,
+.pixel__list__ul__second li {
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 39.2px;
+  letter-spacing: -0.03em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 0.678);
+}
+
+.pixel__list__ul__second {
+  margin-left: 20px;
+}
+
+.pixel__card__box {
+  width: 100%;
+  margin-top: 40px;
+
+  padding: 0px 20px;
+}
+
+.pixel__card__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.pixel__card__item {
+  width: 500px;
+  height: 280px;
+  margin: 10px 10px;
+}
+.pixel__card__item img {
+  width: 100%;
+  height: 100%;
+}
+.pixel__download__box {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download__btn {
+  padding: 10px 50px 10px 50px;
+  color: white;
+  background: rgb(175, 11, 216);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.pixel__download__text {
+padding: 0px 20px;
+  font-family: "Roboto Mono", monospace;
+  position: relative;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 39.2px;
+  letter-spacing: -0.03em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-align: center;
+  color: white;
+}
+.pixel__click__btn {
+  color: rgb(251, 255, 0);
+  cursor: pointer;
+}
+.pixel__main__section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Container for the carousel */
+.pixel__carousel {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width for larger carousel */
+  margin: 40px auto; /* Adds 40px margin on top and bottom of the carousel */
+
+
+  overflow: hidden;
+}
+
+/* Flex container for the slides */
+.carousel__images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  
+}
+
+/* Each carousel slide */
+.carousel__slide {
+  min-width: 100%;
+  height: auto; /* Ensure the height adjusts based on the image's aspect ratio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.carousel__slide img {
+  width: 100%;
+  height: auto; /* Keep the aspect ratio intact */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  max-height: 500px; /* Set a max height for the images */
+  display: block;
+  margin: 40 auto; /* Center the image */
+  
+}
+
+/* Previous and next buttons */
+.carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  z-index: 10;
+}
+
+.carousel__btn.prev {
+  left: 10px;
+}
+
+.carousel__btn.next {
+  right: 10px;
+}
+
+.carousel__btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+@media (min-width: 1256px) {
+  .pixel__heading__box {
+    padding: 0px 20px;
+
+    justify-content: space-between;
+  }
+  .pixel__list__box {
+    padding-left: 30px;
+  }
+
+}
+
+
+@media (max-width: 1256px) {
+  .pixel__heading__box {
+    padding: 0px 20px;
+
+    justify-content: space-between;
+  }
+  .pixel__list__box {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 965px) {
+  .pixel__heading__box {
+    padding: 0px 20px;
+  }
+
+  .pixel__list__ul__first,
+  .pixel__list__ul__second li {
+    font-family: "Roboto Mono", monospace;
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39.2px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 0.678);
+  }
+  .pixel__list__box {
+    padding: 0px 30px;
+  }
+  .pixel__heading__p1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .pixel__heading__p2 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 832px) {
+  .pixel__video {
+    width: 380px;
+    height: 380px;
+  }
+}
+
+@media (max-width: 712px) {
+  .pixel__heading__p1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .pixel__video {
+    width: 400px;
+    height: 400px;
+  }
+  .pixel__heading__p2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  .pixel__list__box {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .pixel__list__ul__first,
+  .pixel__list__ul__second li {
+    font-size: 20px;
+  }
+  .pixel__heading__box {
+    width: 100%;
+
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pixel__text__box {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .pixel__download__text{
+    font-size: 20px;
+    padding: 0px 5px;
+  }
+  .download__btn {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: rgb(175, 11, 216);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 545px) {
+  .pixel__video {
+    width: 300px;
+    height: 300px;
+  }
+  .pixel__list__box {
+    width: auto;
+
+    justify-content: center;
+  }
+  .pixel__list__ul__first,
+  .pixel__list__ul__second i {
+    font-size: 18px;
+  }
+  .pixel__text__box {
+    width: auto;
+  }
+  .download__btn {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: rgb(175, 11, 216);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pixel__list__ul__first,
+  .pixel__list__ul__second li {
+    font-size: 18px;
+  }
+  .pixel__list__box {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pixel__list__ul__first,
+  .pixel__list__ul__second {
+    width: 100%;
+
+    margin-left: 0px;
+  }
+  .pixel__download__text{
+    font-size: 18px;
+    padding: 0px 5px;
+   
+  }
+  .download__btn {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: rgb(175, 11, 216);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 390px) {
+  .pixel__heading__box {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pixel__heading__box {
+  }
+  .pixel__heading__p1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .pixel__heading__p2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .pixel__download__text{
+    font-size: 18px;
+    padding: 0px 5px;
+   
+  }
+  .download__btn {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: rgb(175, 11, 216);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}
+

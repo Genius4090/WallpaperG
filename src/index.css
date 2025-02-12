@@ -1,0 +1,339 @@
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-profile-image {
+  width: 40px;
+  height: 40px;
+  object-fit: cover; /* Ensures proper scaling without distortion */
+  border-radius: 50%; /* If you want it to be a circle */
+}
+
+
+
+.home__search {
+  width: 388px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.nav__search {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+#sidebar-active {
+  display: none;
+}
+
+/* ScrollBtn  */
+.scrollup__btn {
+  position: fixed;
+  right: 1rem;
+  bottom: -30%; /* Hidden off-screen */
+  background-color: rgb(26, 26, 26);
+  backdrop-filter: blur(16px);
+  display: inline-flex;
+  padding: 0.45rem;
+  border-radius: 0.5rem;
+  font-size: 1.15rem;
+  color: white;
+  z-index: 1;
+  transition: bottom 0.3s ease-out, transform 0.3s ease-out; /* Smooth appearance */
+  opacity: 0; /* Initially hidden */
+  pointer-events: none; /* Prevent interaction when hidden */
+}
+
+/* When visible, move it into view */
+.show {
+  bottom: 2rem; /* Adjust as needed */
+  opacity: 1;
+  pointer-events: auto; /* Allow interaction */
+}
+
+.scrollup__btn:hover {
+  transform: translateY(-4px);
+}
+
+@media (min-width: 320px) and (max-width: 427px) {
+  .app__nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    justify-content: flex-start;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+    transition: 0.5s ease-out;
+ 
+  }
+
+  .homer__input {
+    width: 200px;
+    right: 60px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .nav-profile-image-container {
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  .nav-link{
+    padding: 6px 6px 6px 6px;
+   
+  }
+  .pixel__unique__btn{
+  margin-top: 6px;
+  }
+  .pixel__unique__btn:has(.nav__pixel__link.active) {
+    margin-top: 6px;
+}
+
+
+  .nav-link.active{
+    padding: 6px 6px 6px 6px;
+  }
+  #sidebar-active {
+    display: none;
+  }
+  .open-sidebar-btn,
+  .close-sidebar-btn {
+    padding: 20px;
+    display: block;
+  }
+  .open-sidebar-btn {
+    position: absolute;
+    right: 0;
+  }
+  #sidebar-active:checked ~ .app__nav ul {
+    right: 0;
+  }
+
+  .home__heading {
+    height: 100px;
+    width: 320px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Roboto", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  .home__description {
+    font-family: "DM Sans", sans-serif;
+    gap: 0px;
+    opacity: 0px;
+    width: 310px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin: 0 auto;
+  }
+
+  .buttons__box {
+    display: flex;
+    margin-top: 30px;
+
+    align-items: center;
+
+    justify-content: center;
+  }
+  .know__more {
+    width: 134px;
+    font-size: 16px;
+  }
+  .explore__btn {
+    width: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .explore__btn__text {
+    font-size: 15px;
+  }
+  .scrollup__btn {
+    width: 40px;
+    height: 40px;
+    padding: 0.45rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 428px) and (max-width: 768px) {
+  .app__nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    justify-content: flex-start;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(37, 37, 37);
+    transition: 0.5s ease-out;
+    
+  }
+  #sidebar-active {
+    display: none;
+  }
+  .open-sidebar-btn,
+  .close-sidebar-btn {
+    padding: 20px;
+    display: block;
+  }
+  .open-sidebar-btn {
+    position: absolute;
+    right: 0;
+  }
+  #sidebar-active:checked ~ .app__nav ul {
+    right: 0;
+  }
+  .homer__input {
+    right: 60px;
+  }
+  .home__heading {
+    width: 428px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .home__description {
+    font-size: 20px;
+    width: 428px;
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .home__heading {
+    width: 560px;
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .home__description {
+    font-size: 20px;
+    width: 428px;
+    padding-top: 30px;
+  }
+  .buttons__box {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1120px) {
+  .homer__input {
+    width: 200px;
+  }
+  .app__nav ul {
+    justify-content: start;
+  }
+}
+@media (min-width: 910px) and (max-width: 991px){
+.triplist__hero__heading{
+  text-align: center;
+  margin-top: 190px;
+  line-height: 50px;
+}
+}
+@media (min-width: 1121px) and (max-width: 1200px) {
+  .app__nav ul {
+    justify-content: center;
+  }
+  .homer__input {
+    width: 250px;
+  }
+}
+#sidebar-active:checked ~ #overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 320px) and (max-width: 435px) {
+  .triplist__hero__heading {
+    line-height: 44px;
+
+    margin-top: 108px;
+  }
+  .triplist__image {
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 436px) and (max-width: 910px) {
+  .triplist__hero__heading {
+    font-family: "Roboto Mono", monospace;
+    color: rgba(217, 217, 217, 1);
+    font-size: 44px;
+    font-weight: 400;
+    width: 436px;
+    line-height: 45px;
+    text-align: center;
+    margin-top: 150px;
+
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+/* //RESPONSIVE // */
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 100%; /* One card per row on small devices */
+  }
+}
+
+@media (max-width: 600px) {
+  .triplist__search__box {
+    width: 100%; /* Full width on small screens */
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+  .image-buttons {
+    opacity: 1;
+    visibility: visible;
+    position: absolute;
+    margin-top: 70px;
+  }
+  .collected_card {
+    width: 360px;
+    height: 250px;
+
+  }
+}
+
+

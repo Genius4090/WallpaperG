@@ -1,0 +1,2004 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "title": "Sunflower girl",
+      "genre": ["4K", "Anime"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "4.2",
+      "description": "art 4K Anime girl among sunflowers art",
+      "orig": "./wallpapers/wallpaper_1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Anime girl train station",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "4.2",
+      "description": "art Anime girl train station art",
+      "orig": "./wallpapers/wallpaper_2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Makima Chainsaw-man",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.9",
+      "description": "art Makima chainsaw-man chainsawman",
+      "orig": "./wallpapers/wallpaper_3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Power Chainsaw-man",
+      "genre": ["Anime", "Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.4",
+      "description": "4K art Power chainsaw-man chainsawman",
+      "orig": "./wallpapers/wallpaper_4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Sitting at train station",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1",
+      "description": "art girl train station sitting aesthetic",
+      "orig": "./wallpapers/wallpaper_5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Girl holding head soulful",
+      "genre": ["4K", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2280",
+      "size": "1.5",
+      "description": "art anime girl holding touch soulful serenity",
+      "orig": "./wallpapers/wallpaper_6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Astronaut x Angel",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "5.6",
+      "description": "art Anime girl angel astronaut space",
+      "orig": "./wallpapers/wallpaper_7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Somewhere in between",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.8",
+      "description": "art anime girl aesthetic pink sky somewhere in between",
+      "orig": "./wallpapers/wallpaper_8.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Urban serenity",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.5",
+      "description": "art urban serenity anime girl and child on a city balcony",
+      "orig": "./wallpapers/wallpaper_9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Seele vollerei Honkai impact",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "4.5",
+      "description": "seele vollerei honkai impact third 3 art",
+      "orig": "./wallpapers/wallpaper_10.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Hatsune Miku",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "4.3",
+      "description": "Hatsune miku vocaloid blue hair art",
+      "orig": "./wallpapers/wallpaper_11.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Anime girl 4K",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "6.8",
+      "description": "4K anime girl colorful style stylish shard art",
+      "orig": "./wallpapers/wallpaper_12.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Lucy Cyberpunk: Edgerunners",
+      "genre": ["Anime", "Art", "4K"],
+      "resolutionX": "5588",
+      "resolutionY": "3143",
+      "size": "3.2",
+      "description": "lucy cyberpunk 2077 edgerunners anime 4k art",
+      "orig": "./wallpapers/wallpaper_13.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Moonlight shore",
+      "genre": ["Art"],
+      "resolutionX": "2000",
+      "resolutionY": "1157",
+      "size": "1.8",
+      "description": "Girl art moonlight shore ocean night moon",
+      "orig": "./wallpapers/wallpaper_14.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Shooting stars midnight sun",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3154",
+      "size": "9.9",
+      "description": "art Shooting stars midnight sun girl sky",
+      "orig": "./wallpapers/wallpaper_15.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Girl with balloons",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "0.7",
+      "description": "art red balloons girl standing aesthetic",
+      "orig": "./wallpapers/wallpaper_16.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Suzume closing the doors",
+      "genre": ["Anime", "Art", "4K"],
+      "resolutionX": "10000",
+      "resolutionY": "5625",
+      "size": "6.5",
+      "description": "4K suzume closing the doors art anime schoolgirl standing ocean",
+      "orig": "./wallpapers/wallpaper_17.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Hatsune Miku Alternative",
+      "genre": ["Art"],
+      "resolutionX": "2500",
+      "resolutionY": "1667",
+      "size": "4",
+      "description": "Hatsune Miku vocaloid pink art",
+      "orig": "./wallpapers/wallpaper_18.png"
+    },
+    {
+      "id": 19,
+      "title": "Ump9 Girls frontline",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.9",
+      "description": "ump9 girls frontline art",
+      "orig": "./wallpapers/wallpaper_19.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Sorasaki Hina blue archive",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3032",
+      "size": "2.5",
+      "description": "sorasaki hina blue archive piano art",
+      "orig": "./wallpapers/wallpaper_20.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Arknights Texas",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "1930",
+      "size": "1.8",
+      "description": "4K arknights texas art",
+      "orig": "./wallpapers/wallpaper_21.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Nightwalk",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.1",
+      "description": "art 4K adorable anime girl at night walking night walk",
+      "orig": "./wallpapers/wallpaper_22.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Saria Arknights",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2194",
+      "size": "2.2",
+      "description": "saria arknights art",
+      "orig": "./wallpapers/wallpaper_23.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Exusiai Arknights",
+      "genre": ["Art"],
+      "resolutionX": "3790",
+      "resolutionY": "1944",
+      "size": "5.5",
+      "description": "art exusiai arknights girl shooting car weapon",
+      "orig": "./wallpapers/wallpaper_24.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Tunnel to Summer",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3154",
+      "size": "4.5",
+      "description": "art tunnel to summer anime school girl boy waiting bus",
+      "orig": "./wallpapers/wallpaper_25.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Saber Fate Grand Order",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "2.1",
+      "description": "anime art saber fate grand order girl knight sword",
+      "orig": "./wallpapers/wallpaper_26.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Zero Two",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "2912",
+      "resolutionY": "1632",
+      "size": "4.1",
+      "description": "zero two 02 anime art darling in the franxx",
+      "orig": "./wallpapers/wallpaper_27.png"
+    },
+    {
+      "id": 28,
+      "title": "Frieren: Beyond Journey's End",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "5.3",
+      "description": "frieren beyond journeys end anime art",
+      "orig": "./wallpapers/wallpaper_28.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Gazing at the sea",
+      "genre": ["Art"],
+      "resolutionX": "5640",
+      "resolutionY": "2400",
+      "size": "1.6",
+      "description": "art gazing at the sea aesthetic night lights girl",
+      "orig": "./wallpapers/wallpaper_29.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Frieren: Beyond Journey's End",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2644",
+      "size": "2.5",
+      "description": "frieren beyond journeys end anime art flowers aesthetic",
+      "orig": "./wallpapers/wallpaper_30.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Glowing field",
+      "genre": ["4K", "Anime"],
+      "resolutionX": "6000",
+      "resolutionY": "2533",
+      "size": "3.6",
+      "description": "glowing field blue cyan anime 4k",
+      "orig": "./wallpapers/wallpaper_31.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Girls frontline",
+      "genre": ["Art", "4K"],
+      "resolutionX": "4000",
+      "resolutionY": "2506",
+      "size": "0.9",
+      "description": "art 4k girls frontline girl holding gun glock",
+      "orig": "./wallpapers/wallpaper_32.jpg"
+    },
+    {
+      "id": 33,
+      "title": "Hatoba Tsugu",
+      "genre": ["Art", "4K"],
+      "resolutionX": "4364",
+      "resolutionY": "3029",
+      "size": "4.9",
+      "description": "Hatoba Tsugu vtuber virtual youtuber art 4k",
+      "orig": "./wallpapers/wallpaper_33.jpg"
+    },
+    {
+      "id": 34,
+      "title": "Call of Dragons",
+      "genre": ["Art"],
+      "resolutionX": "7111",
+      "resolutionY": "4633",
+      "size": "4.2",
+      "description": "gui long chao call of dragons art game",
+      "orig": "./wallpapers/wallpaper_34.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Free fallen",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "1.8",
+      "description": "free fallen girl art falling from sky sunshine",
+      "orig": "./wallpapers/wallpaper_35.jpg"
+    },
+    {
+      "id": 36,
+      "title": "Hatsune Miku",
+      "genre": ["Art"],
+      "resolutionX": "2560",
+      "resolutionY": "1440",
+      "size": "0.7",
+      "description": "hatsune miku vocaloid blue hair lighting cyan",
+      "orig": "./wallpapers/wallpaper_36.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Hatsune Miku Vocaloid",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.4",
+      "description": "art hatsune miku vocaloid aesthetic",
+      "orig": "./wallpapers/wallpaper_37.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Yae Miko genshin impact",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2764",
+      "size": "3.5",
+      "description": "art yae miko genshin impact gold shine",
+      "orig": "./wallpapers/wallpaper_38.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Zero Two",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "2560",
+      "resolutionY": "1440",
+      "size": "0.8",
+      "description": "art anime zero two 02 darling in the franxx red pink hair",
+      "orig": "./wallpapers/wallpaper_39.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Ryo yamada",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "9.2",
+      "description": "ryo yamada bochchi the rock anime art",
+      "orig": "./wallpapers/wallpaper_40.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Melanchony in the rain",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2176",
+      "size": "2.5",
+      "description": "aesthetic art melanchony in the rain night arknights",
+      "orig": "./wallpapers/wallpaper_41.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Burning the past",
+      "genre": ["4K", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "3.4",
+      "description": "4k art burning the past anime school girl sea ocean starring",
+      "orig": "./wallpapers/wallpaper_42.jpg"
+    },
+    {
+      "id": 43,
+      "title": "Ninomae ina'nis and Takodachi",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2876",
+      "size": "4.7",
+      "description": "Ninomae ina'nis and Takodachi hololive",
+      "orig": "./wallpapers/wallpaper_43.jpg"
+    },
+    {
+      "id": 44,
+      "title": "Dark witch",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2400",
+      "size": "1",
+      "description": "dark witch ghost dark girl art",
+      "orig": "./wallpapers/wallpaper_44.jpg"
+    },
+    {
+      "id": 45,
+      "title": "I'ts what's happening",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2458",
+      "size": "4.8",
+      "description": "it's what's happening anime art girl balcony daily routine moments",
+      "orig": "./wallpapers/wallpaper_45.jpg"
+    },
+    {
+      "id": 46,
+      "title": "Mita",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.3",
+      "description": "mita art 4k studio blue hair miside",
+      "orig": "./wallpapers/wallpaper_46.jpg"
+    },
+    {
+      "id": 47,
+      "title": "Angel",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2323",
+      "size": "1.4",
+      "description": "angel wings girl sky sea art",
+      "orig": "./wallpapers/wallpaper_47.jpg"
+    },
+    {
+      "id": 48,
+      "title": "Acorecell angel",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5500",
+      "resolutionY": "2327",
+      "size": "7.4",
+      "description": "acorecell angel girl fixing items",
+      "orig": "./wallpapers/wallpaper_48.jpg"
+    },
+    {
+      "id": 49,
+      "title": "Black rock shooter",
+      "genre": ["Art"],
+      "resolutionX": "2560",
+      "resolutionY": "1600",
+      "size": "1.2",
+      "description": "art black rock shooter",
+      "orig": "./wallpapers/wallpaper_49.jpg"
+    },
+    {
+      "id": 50,
+      "title": "Loneliness",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "4.2",
+      "description": "art anime girl on swing lonely loneliness",
+      "orig": "./wallpapers/wallpaper_50.jpg"
+    },
+    {
+      "id": 51,
+      "title": "Nissan gtr r34",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2827",
+      "size": "4.9",
+      "description": "nissan gtr r34 car police anime art girl",
+      "orig": "./wallpapers/wallpaper_51.jpg"
+    },
+    {
+      "id": 52,
+      "title": "Primrose dreams",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.9",
+      "description": "primrose dreams graceful anime girl with flower red",
+      "orig": "./wallpapers/wallpaper_52.jpg"
+    },
+    {
+      "id": 53,
+      "title": "Skyward halo angel",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2296",
+      "size": "4.3",
+      "description": "skyward halo angel city art 4k",
+      "orig": "./wallpapers/wallpaper_53.jpg"
+    },
+    {
+      "id": 54,
+      "title": "Mecha 02",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "3840",
+      "resolutionY": "2051",
+      "size": "2.6",
+      "description": "mecha 02 urban darling in the franxx cyber",
+      "orig": "./wallpapers/wallpaper_54.jpg"
+    },
+    {
+      "id": 55,
+      "title": "Ethereal Nights",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.1",
+      "description": "art ethereal nights girl with umbrella japanese",
+      "orig": "./wallpapers/wallpaper_55.jpg"
+    },
+    {
+      "id": 56,
+      "title": "Angel girl in grocery",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "6.3",
+      "description": "angel girl in grocery little wings art",
+      "orig": "./wallpapers/wallpaper_56.jpg"
+    },
+    {
+      "id": 57,
+      "title": "Alone at road",
+      "genre": ["Art"],
+      "resolutionX": "7680",
+      "resolutionY": "4800",
+      "size": "6.7",
+      "description": "art anime girl alone at road green eyes",
+      "orig": "./wallpapers/wallpaper_57.jpg"
+    },
+    {
+      "id": 58,
+      "title": "Little sweeties (extremely squishy)",
+      "genre": ["Art"],
+      "resolutionX": "1280",
+      "resolutionY": "720",
+      "size": "00.8",
+      "description": "art little sweeties squishy wuthering waves jinhsi changli chanli",
+      "orig": "./wallpapers/wallpaper_58.jpg"
+    },
+    {
+      "id": 59,
+      "title": "Hatsune Miku Hawai",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "10.4",
+      "description": "hatsune miku vocaloid hawai hat",
+      "orig": "./wallpapers/wallpaper_59.jpg"
+    },
+    {
+      "id": 60,
+      "title": "Starry night",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "5.3",
+      "description": " 4k starry night anime girl sitting roof blue sky stars city art",
+      "orig": "./wallpapers/wallpaper_60.jpg"
+    },
+    {
+      "id": 61,
+      "title": "Run for the Hills",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1229",
+      "size": "1",
+      "description": "anime girl morning hills art aesthetic",
+      "orig": "./wallpapers/wallpaper_61.jpg"
+    },
+    {
+      "id": 62,
+      "title": "Natural security",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3073",
+      "size": "8.7",
+      "description": "art anime girl with security natural sunflower",
+      "orig": "./wallpapers/wallpaper_62.jpg"
+    },
+    {
+      "id": 63,
+      "title": "Digital Love",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1200",
+      "size": "0.3",
+      "description": "digital anime art love couple art piano",
+      "orig": "./wallpapers/wallpaper_63.jpg"
+    },
+    {
+      "id": 64,
+      "title": "Sagume Kishin touhou",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "0.5",
+      "description": "art sagume kishin touhou wings",
+      "orig": "./wallpapers/wallpaper_64.jpg"
+    },
+    {
+      "id": 65,
+      "title": "Hatsune miku couple",
+      "genre": ["Art"],
+      "resolutionX": "3226",
+      "resolutionY": "1814",
+      "size": "1.5",
+      "description": "art hatsune miku holding hands couple",
+      "orig": "./wallpapers/wallpaper_65.jpg"
+    },
+    {
+      "id": 66,
+      "title": "Metro station",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "0.6",
+      "description": "art metro station anime school girl meeting",
+      "orig": "./wallpapers/wallpaper_66.jpg"
+    },
+    {
+      "id": 67,
+      "title": "Aqua girl",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.1",
+      "description": "anime girl aqua blue 4k",
+      "orig": "./wallpapers/wallpaper_67.jpg"
+    },
+    {
+      "id": 68,
+      "title": "Akiyama Mizuki",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2364",
+      "size": "3",
+      "description": "akiyama mizuki art colorful stage",
+      "orig": "./wallpapers/wallpaper_68.jpg"
+    },
+    {
+      "id": 69,
+      "title": "Mirage in distance",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.4",
+      "description": "mirage in distance girl urban city",
+      "orig": "./wallpapers/wallpaper_69.jpg"
+    },
+    {
+      "id": 70,
+      "title": "Neon Lights",
+      "genre": ["Art"],
+      "resolutionX": "4000",
+      "resolutionY": "2028",
+      "size": "3.4",
+      "description": "anime girl neon lights city art",
+      "orig": "./wallpapers/wallpaper_70.jpg"
+    },
+    {
+      "id": 71,
+      "title": "World of Wonder",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1",
+      "description": "art anime girl world of wonder aesthetic",
+      "orig": "./wallpapers/wallpaper_71.jpg"
+    },
+    {
+      "id": 72,
+      "title": "Lost in the sky",
+      "genre": ["Art"],
+      "resolutionX": "5662",
+      "resolutionY": "4000",
+      "size": "7.9",
+      "description": "art anime girl lost in the sky of stars",
+      "orig": "./wallpapers/wallpaper_72.jpg"
+    },
+    {
+      "id": 73,
+      "title": "Morning coffee",
+      "genre": [],
+      "resolutionX": "2048",
+      "resolutionY": "1152",
+      "size": "0.3",
+      "description": "anime girl car drinking coffee morning",
+      "orig": "./wallpapers/wallpaper_73.jpg"
+    },
+    {
+      "id": 74,
+      "title": "Vocaloid Hatsune Miku",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2",
+      "description": "vocaloid hatsune miku art gun weapon",
+      "orig": "./wallpapers/wallpaper_74.jpg"
+    },
+    {
+      "id": 75,
+      "title": "Miyuki",
+      "genre": ["Art"],
+      "resolutionX": "2480",
+      "resolutionY": "1395",
+      "size": "1.5",
+      "description": "miyuki urban girl art",
+      "orig": "./wallpapers/wallpaper_75.jpg"
+    },
+    {
+      "id": 76,
+      "title": "Walk in abondon city",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2",
+      "description": "art girl walk in abondon city",
+      "orig": "./wallpapers/wallpaper_76.jpg"
+    },
+    {
+      "id": 77,
+      "title": "Railway Journey",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "3.2",
+      "description": "art girl at train way railway journey",
+      "orig": "./wallpapers/wallpaper_77.jpg"
+    },
+    {
+      "id": 78,
+      "title": "Red eyes",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.4",
+      "description": "art anime schoold girl red eyes",
+      "orig": "./wallpapers/wallpaper_78.jpg"
+    },
+    {
+      "id": 79,
+      "title": "Quadratic element",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2720",
+      "size": "3",
+      "description": "anime quadratic element 4k art cherry blossom",
+      "orig": "./wallpapers/wallpaper_79.jpg"
+    },
+    {
+      "id": 80,
+      "title": "Walking by the sea shore",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3",
+      "description": "anime schoolgirl walking by the sea shore night sky blue light",
+      "orig": "./wallpapers/wallpaper_80.jpg"
+    },
+    {
+      "id": 81,
+      "title": "Promise",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "2560",
+      "resolutionY": "1600",
+      "size": "1.1",
+      "description": "chica anime art promise",
+      "orig": "./wallpapers/wallpaper_81.jpg"
+    },
+    {
+      "id": 82,
+      "title": "Golden time",
+      "genre": ["Art"],
+      "resolutionX": "3300",
+      "resolutionY": "2000",
+      "size": "6.2",
+      "description": "golden time sun street art",
+      "orig": "./wallpapers/wallpaper_82.png"
+    },
+    {
+      "id": 83,
+      "title": "Your lie in April",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2370",
+      "size": "4.8",
+      "description": "anime love your lie in april art",
+      "orig": "./wallpapers/wallpaper_83.jpg"
+    },
+    {
+      "id": 84,
+      "title": "Zero Two",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1000",
+      "size": "1.4",
+      "description": "anime art zero two 02 darling in the franxx moon pink",
+      "orig": "./wallpapers/wallpaper_84.jpg"
+    },
+    {
+      "id": 85,
+      "title": "Jinhsi",
+      "genre": ["Art"],
+      "resolutionX": "2560",
+      "resolutionY": "1440",
+      "size": "4.8",
+      "description": "art Jinhsi jinshi wuthering waves wuwa",
+      "orig": "./wallpapers/wallpaper_85.png"
+    },
+    {
+      "id": 86,
+      "title": "Sunset and solitary flight",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3008",
+      "size": "1.9",
+      "description": "art sunset and solitary flight fly together",
+      "orig": "./wallpapers/wallpaper_86.jpg"
+    },
+    {
+      "id": 87,
+      "title": "Sad Miku",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2528",
+      "size": "3",
+      "description": "art sad hatsune miku vocaloid blue onion hair",
+      "orig": "./wallpapers/wallpaper_87.jpg"
+    },
+    {
+      "id": 88,
+      "title": "Shiroko blue archive",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.5",
+      "description": "art shiroko blue archive cat neko",
+      "orig": "./wallpapers/wallpaper_88.jpg"
+    },
+    {
+      "id": 89,
+      "title": "Lunas guardian",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "4500",
+      "resolutionY": "2967",
+      "size": "4.6",
+      "description": "lunas guardian anime girl moonlight",
+      "orig": "./wallpapers/wallpaper_89.jpg"
+    },
+    {
+      "id": 90,
+      "title": "Gank - Resurrection",
+      "genre": ["Art"],
+      "resolutionX": "2000",
+      "resolutionY": "1300",
+      "size": "0.5",
+      "description": "art manga girl car mercedez benz",
+      "orig": "./wallpapers/wallpaper_90.jpg"
+    },
+    {
+      "id": 91,
+      "title": "Makima Chainsaw-man",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.1",
+      "description": "art anime makima chainsaw-man",
+      "orig": "./wallpapers/wallpaper_91.jpg"
+    },
+    {
+      "id": 92,
+      "title": "Makise Kurisu",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "4.4",
+      "description": "makise kurisu stains gate anime art",
+      "orig": "./wallpapers/wallpaper_92.jpg"
+    },
+    {
+      "id": 93,
+      "title": "Persona 3 Reload",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "1.1",
+      "description": "persona 3 reload anime art blue",
+      "orig": "./wallpapers/wallpaper_93.jpg"
+    },
+    {
+      "id": 94,
+      "title": "Arona blue archive",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3103",
+      "size": "3.1",
+      "description": "arona blue archive depth parallax art",
+      "orig": "./wallpapers/wallpaper_94.jpg"
+    },
+    {
+      "id": 95,
+      "title": "Dead master b-r-shooter",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "1974",
+      "size": "6.4",
+      "description": "dead master black rock shooter art dark green light",
+      "orig": "./wallpapers/wallpaper_95.jpg"
+    },
+    {
+      "id": 96,
+      "title": "Do not mess with ammo girls",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3158",
+      "size": "5.9",
+      "description": "anime robot girls weapon sword do not mess with ammo girls mecha futuristic",
+      "orig": "./wallpapers/wallpaper_96.jpg"
+    },
+    {
+      "id": 97,
+      "title": "Chainsaw-man 2077",
+      "genre": ["Art", "Anime", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.8",
+      "description": "chainsaaw-man cyberpunk 2077 anime art 4k yellow robot",
+      "orig": "./wallpapers/wallpaper_97.jpg"
+    },
+    {
+      "id": 98,
+      "title": "Far away",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.7",
+      "description": "far away distant elegance girl blue",
+      "orig": "./wallpapers/wallpaper_98.jpg"
+    },
+    {
+      "id": 99,
+      "title": "Walking on the beach",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "4.1",
+      "description": "walking on the beach hair glowing in wind art anime girl aesthetic sea hat",
+      "orig": "./wallpapers/wallpaper_99.jpg"
+    },
+    {
+      "id": 100,
+      "title": "Critical punk",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "3840",
+      "resolutionY": "2137",
+      "size": "4.4",
+      "description": "anime art revolver katana girl cyberpunk 2077 mecha futuristic fighting gun weapon fire motorcycle",
+      "orig": "./wallpapers/wallpaper_100.jpg"
+    },
+    {
+      "id": 101,
+      "title": "Type 79 Frontline",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "1.1",
+      "description": "art 4k type 79 girls frontline weapon gun",
+      "orig": "./wallpapers/wallpaper_101.jpg"
+    },
+    {
+      "id": 102,
+      "title": "Furina genshin impact",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2327",
+      "size": "2.7",
+      "description": "art furina genshin impact sea blue white hair",
+      "orig": "./wallpapers/wallpaper_102.jpg"
+    },
+    {
+      "id": 103,
+      "title": "Hatsune Miku",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.7",
+      "description": "art hatsune miku vocaloid aesthetic night stars sea",
+      "orig": "./wallpapers/wallpaper_103.jpg"
+    },
+    {
+      "id": 104,
+      "title": "Romantic duet",
+      "genre": ["Art", "Anime"],
+      "resolutionX": "5120",
+      "resolutionY": "2926",
+      "size": "2.1",
+      "description": "anime romantic couple duet love art",
+      "orig": "./wallpapers/wallpaper_104.jpg"
+    },
+    {
+      "id": 105,
+      "title": "Rhythm of the Sea",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3639",
+      "resolutionY": "2279",
+      "size": "3.2",
+      "description": "anime art school girl rhythm of sea rythm",
+      "orig": "./wallpapers/wallpaper_105.jpg"
+    },
+    {
+      "id": 106,
+      "title": "Fantasy forest",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.7",
+      "description": "fantasy forest tree art samurai japanese red shrine",
+      "orig": "./wallpapers/wallpaper_106.jpeg"
+    },
+    {
+      "id": 107,
+      "title": "Hatsune Miku",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.1",
+      "description": "hatsune miku art 4k vocaloid 01 blue aesthetic",
+      "orig": "./wallpapers/wallpaper_107.jpg"
+    },
+    {
+      "id": 108,
+      "title": "Meteor streak",
+      "genre": ["Anime", "Art", "4K"],
+      "resolutionX": "10114",
+      "resolutionY": "5564",
+      "size": "14.4",
+      "description": "anime art 4k meteor girl streak starry night stars blue sky binocular stargazing",
+      "orig": "./wallpapers/wallpaper_108.jpg"
+    },
+    {
+      "id": 109,
+      "title": "Girl with big (personalities)",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "6.8",
+      "description": "anime girl with big personalities on car bonnet glasses white boobs",
+      "orig": "./wallpapers/wallpaper_109.jpg"
+    },
+    {
+      "id": 110,
+      "title": "Wings of heaven",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2",
+      "description": "art 4k wings of heaven angel girl unfold glory",
+      "orig": "./wallpapers/wallpaper_110.jpg"
+    },
+    {
+      "id": 111,
+      "title": "Pure Morning",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2051",
+      "size": "4",
+      "description": "art 4k pure morning anime girl short hair fenve standing",
+      "orig": "./wallpapers/wallpaper_111.jpg"
+    },
+    {
+      "id": 112,
+      "title": "Mental Escape",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2108",
+      "size": "2.2",
+      "description": "art anime girl mental escape night stars blue",
+      "orig": "./wallpapers/wallpaper_112.jpg"
+    },
+    {
+      "id": 113,
+      "title": "Midnight Melody",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.4",
+      "description": "art anime girl playing fluet midnight melody",
+      "orig": "./wallpapers/wallpaper_113.jpg"
+    },
+    {
+      "id": 114,
+      "title": "Lost Echoes",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2161",
+      "size": "9.6",
+      "description": "anime schoolgirl sitting traffic light abandon city lost echoes",
+      "orig": "./wallpapers/wallpaper_114.jpg"
+    },
+    {
+      "id": 115,
+      "title": "Nissan gtr 35",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.7",
+      "description": "nissan gtr 35 anime girl ",
+      "orig": "./wallpapers/wallpaper_115.jpg"
+    },
+    {
+      "id": 116,
+      "title": "Color wheel",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.9",
+      "description": "art schoolgirl train station color wheel aesthetic",
+      "orig": "./wallpapers/wallpaper_116.jpg"
+    },
+    {
+      "id": 117,
+      "title": "Little Alchemic",
+      "genre": ["Art"],
+      "resolutionX": "3700",
+      "resolutionY": "2567",
+      "size": "1.4",
+      "description": "little alchemic witch wizard girl anime art magic",
+      "orig": "./wallpapers/wallpaper_117.jpg"
+    },
+    {
+      "id": 118,
+      "title": "Princess of starry field",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2627",
+      "size": "6.2",
+      "description": "art princess of starry field stars galaxy",
+      "orig": "./wallpapers/wallpaper_118.jpg"
+    },
+    {
+      "id": 119,
+      "title": "Just the two of us",
+      "genre": ["Anime"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "0.7",
+      "description": "anime futaba thomas shelby",
+      "orig": "./wallpapers/wallpaper_119.png"
+    },
+    {
+      "id": 120,
+      "title": "Miku fallen angel",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "0.5",
+      "description": " rain hatsune miku art vocaloid fallen angel",
+      "orig": "./wallpapers/wallpaper_120.jpg"
+    },
+    {
+      "id": 121,
+      "title": "Asuka Langley Soryu",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "4",
+      "description": "anime art girl asuka langley soryu motorbike evangelion genesis",
+      "orig": "./wallpapers/wallpaper_121.jpg"
+    },
+    {
+      "id": 122,
+      "title": "Beyond the railroad",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3400",
+      "size": "4.9",
+      "description": "beyond the railroad anime schoolgirl crossing abandon city",
+      "orig": "./wallpapers/wallpaper_122.jpg"
+    },
+    {
+      "id": 123,
+      "title": "Inital D Police girl",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "6.2",
+      "description": "anime art initial d police girl",
+      "orig": "./wallpapers/wallpaper_123.jpg"
+    },
+    {
+      "id": 124,
+      "title": "School shooter",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5630",
+      "resolutionY": "3940",
+      "size": "1.2",
+      "description": "anime art 4k school girl shooter gun pistol weapon",
+      "orig": "./wallpapers/wallpaper_124.jpg"
+    },
+    {
+      "id": 125,
+      "title": "Night time silhouette",
+      "genre": ["Art"],
+      "resolutionX": "6000",
+      "resolutionY": "2553",
+      "size": "1.3",
+      "description": "art night time silhouette anime girl",
+      "orig": "./wallpapers/wallpaper_125.jpg"
+    },
+    {
+      "id": 126,
+      "title": "Tired of everyday grind",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "1",
+      "description": "art anime girl tired of everyday grind routine",
+      "orig": "./wallpapers/wallpaper_126.jpg"
+    },
+    {
+      "id": 127,
+      "title": "Girl vast horizon",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2152",
+      "size": "1.3",
+      "description": "art anime girl vast horizon blue sky",
+      "orig": "./wallpapers/wallpaper_127.jpg"
+    },
+    {
+      "id": 128,
+      "title": "Shirazuku night coffee",
+      "genre": ["Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.3",
+      "description": "art 4k Shirazuku night coffee anime girl snow cold",
+      "orig": "./wallpapers/wallpaper_128.jpg"
+    },
+    {
+      "id": 129,
+      "title": "Grace Field Ray",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2150",
+      "size": "1.8",
+      "description": "grace field ray anime art",
+      "orig": "./wallpapers/wallpaper_129.jpg"
+    },
+    {
+      "id": 130,
+      "title": "Still in pain?",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2095",
+      "size": "4.3",
+      "description": "art anime girl sad rain still in pain",
+      "orig": "./wallpapers/wallpaper_130.jpg"
+    },
+    {
+      "id": 131,
+      "title": "Camus in the blue sky",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2157",
+      "size": "2.5",
+      "description": "camus in the blue sky train station blue railway anime art",
+      "orig": "./wallpapers/wallpaper_131.jpg"
+    },
+    {
+      "id": 132,
+      "title": "Garden of eden",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "8.3",
+      "description": "garden of eden art girl sky",
+      "orig": "./wallpapers/wallpaper_132.jpg"
+    },
+    {
+      "id": 133,
+      "title": "Moon in power lines",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5640",
+      "resolutionY": "2400",
+      "size": "1.5",
+      "description": "glowing moon power lines 4k art dark light field",
+      "orig": "./wallpapers/wallpaper_133.jpg"
+    },
+    {
+      "id": 134,
+      "title": "Illusion World",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2159",
+      "size": "2.3",
+      "description": "girl in illusion world art",
+      "orig": "./wallpapers/wallpaper_134.jpg"
+    },
+    {
+      "id": 135,
+      "title": "Glowing world outside",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5640",
+      "resolutionY": "2400",
+      "size": "5.4",
+      "description": "girl glowing world outside art 4k blue",
+      "orig": "./wallpapers/wallpaper_135.jpg"
+    },
+    {
+      "id": 136,
+      "title": "Tom Clancy's division",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2128",
+      "size": "2.5",
+      "description": "anime art girl tom clancy's division weaon abandon city snow gun",
+      "orig": "./wallpapers/wallpaper_136.jpg"
+    },
+    {
+      "id": 137,
+      "title": "Deep blue sky",
+      "genre": ["Art"],
+      "resolutionX": "4673",
+      "resolutionY": "3249",
+      "size": "1.1",
+      "description": "art deep blue sky anime girl pure white wings",
+      "orig": "./wallpapers/wallpaper_137.jpg"
+    },
+    {
+      "id": 138,
+      "title": "Kaguya Otsutsuki",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "3503",
+      "size": "2.2",
+      "description": "kaguya otsutsuki art 4k red eyes",
+      "orig": "./wallpapers/wallpaper_138.jpg"
+    },
+    {
+      "id": 139,
+      "title": "Hope of enderlilies",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "5.2",
+      "description": "art blighted hope enderlilies knight girl",
+      "orig": "./wallpapers/wallpaper_139.jpg"
+    },
+    {
+      "id": 140,
+      "title": "Embracing the evening",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2560",
+      "size": "2.4",
+      "description": "girl art embracing the evening aesthetic",
+      "orig": "./wallpapers/wallpaper_140.jpg"
+    },
+    {
+      "id": 141,
+      "title": "Devil eyes",
+      "genre": ["Art"],
+      "resolutionX": "2994",
+      "resolutionY": "1236",
+      "size": "0.5",
+      "description": "art girl devil eyes",
+      "orig": "./wallpapers/wallpaper_141.jpg"
+    },
+    {
+      "id": 142,
+      "title": "Yuzuriha",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "5.8",
+      "description": "yuzuriha anime art 4k rain girl",
+      "orig": "./wallpapers/wallpaper_142.jpg"
+    },
+    {
+      "id": 143,
+      "title": "Neko girl",
+      "genre": ["4K", "Art"],
+      "resolutionX": "10224",
+      "resolutionY": "5436",
+      "size": "5.1",
+      "description": "neko cat girl lake 4k art",
+      "orig": "./wallpapers/wallpaper_143.jpg"
+    },
+    {
+      "id": 144,
+      "title": "Night rain",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "4.4",
+      "description": "night rain girl walk art umbrella",
+      "orig": "./wallpapers/wallpaper_144.jpg"
+    },
+    {
+      "id": 145,
+      "title": "Heights are not scary",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2103",
+      "size": "5.6",
+      "description": "heights are not scary art girl urban city",
+      "orig": "./wallpapers/wallpaper_145.jpg"
+    },
+    {
+      "id": 146,
+      "title": "Rei Ayanami",
+      "genre": ["Anime", "Art", "4K"],
+      "resolutionX": "3840",
+      "resolutionY": "1920",
+      "size": "1.9",
+      "description": "rei ayanami evangelion genesis anime 4k art creep girl",
+      "orig": "./wallpapers/wallpaper_146.jpg"
+    },
+    {
+      "id": 147,
+      "title": "Frieren: Beyond Journey's End",
+      "genre": ["Anime", "Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2528",
+      "size": "2.2",
+      "description": "frieren beyond journeys end anime art",
+      "orig": "./wallpapers/wallpaper_147.jpg"
+    },
+    {
+      "id": 148,
+      "title": "Hatsune Miku Vocaloid",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2",
+      "description": "art sad hatsune miku vocaloid",
+      "orig": "./wallpapers/wallpaper_148.jpg"
+    },
+    {
+      "id": 149,
+      "title": "Yukari hayasaka",
+      "genre": ["Art","Anime"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "0.9",
+      "description": "art anime paradise kiss yukari hayasaka",
+      "orig": "./wallpapers/wallpaper_149.jpg"
+    },
+    {
+      "id": 150,
+      "title": "Frieren Beyond Journey's End",
+      "genre": ["Anime","Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2340",
+      "size": "3.5",
+      "description": "frieren beyond journeys end anime art 4k",
+      "orig": "./wallpapers/wallpaper_150.jpg"
+    },
+    {
+      "id": 151,
+      "title": "Lucy Cyberpunk: Edgerunners",
+      "genre": ["Anime","Art","4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2106",
+      "size": "9.1",
+      "description": "lucy cyberpunk 2077 edgerunners art anime 4k",
+      "orig": "./wallpapers/wallpaper_151.png"
+    },
+    {
+      "id": 152,
+      "title": "Drifting Dreams",
+      "genre": ["Art"],
+      "resolutionX": "3000",
+      "resolutionY": "1688",
+      "size": "2.4",
+      "description": "art anime little girl balloons blue",
+      "orig": "./wallpapers/wallpaper_152.jpg"
+    },
+    {
+      "id": 153,
+      "title": "Arknights",
+      "genre": ["Art"],
+      "resolutionX": "2560",
+      "resolutionY": "1080",
+      "size": "1",
+      "description": "art arknights girl bunny rain aesthetic",
+      "orig": "./wallpapers/wallpaper_153.jpg"
+    },
+    {
+      "id": 154,
+      "title": "Winter Brews",
+      "genre": ["Art"],
+      "resolutionX": "1920",
+      "resolutionY": "1265",
+      "size": "0.4",
+      "description": "anime girl coffee cold winter aesthetic",
+      "orig": "./wallpapers/wallpaper_154.jpg"
+    },
+    {
+      "id": 155,
+      "title": "Lucy Cyberpunk: Edgerunners",
+      "genre": ["Anime","Art","4K"],
+      "resolutionX": "4096",
+      "resolutionY": "2494",
+      "size": "2.5",
+      "description": "lucy cyberpunk 2077 edgerunners anime 4k art",
+      "orig": "./wallpapers/wallpaper_155.jpg"
+    },
+    {
+      "id": 156,
+      "title": "Guilt of hero",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.8",
+      "description": "art guilt of hero warrior art aesthetic",
+      "orig": "./wallpapers/wallpaper_156.jpg"
+    },
+    {
+      "id": 157,
+      "title": "Speed Symphony",
+      "genre": ["Art","4K"],
+      "resolutionX": "4978",
+      "resolutionY": "2800",
+      "size": "3.3",
+      "description": "hatsune miku 4k art car mclaren racing",
+      "orig": "./wallpapers/wallpaper_157.jpg"
+    },
+    {
+      "id": 158,
+      "title": "Frieren Beyond Journey's End",
+      "genre": ["Anime","4K","Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3141",
+      "size": "4.3",
+      "description": "frieren beyond journeys end anime art 4k",
+      "orig": "./wallpapers/wallpaper_158.jpg"
+    },
+    {
+      "id": 159,
+      "title": "Aqua dreams",
+      "genre": ["Art"],
+      "resolutionX": "4096",
+      "resolutionY": "2271",
+      "size": "2",
+      "description": "aqua dreams art serene water landscape",
+      "orig": "./wallpapers/wallpaper_159.jpg"
+    },
+    {
+      "id": 160,
+      "title": "Azuki",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "4.4",
+      "description": "azuki art 4k katana blade anime girl",
+      "orig": "./wallpapers/wallpaper_160.jpg"
+    },
+    {
+      "id": 161,
+      "title": "Zero Two",
+      "genre": ["Art","4K","Anime"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1",
+      "description": "black zero two dark 02 anime art darling in the franxx 4k",
+      "orig": "./wallpapers/wallpaper_161.png"
+    },
+    {
+      "id": 162,
+      "title": "Art of Nature",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "3.5",
+      "description": "girl shorthair nature art colorful forest tree",
+      "orig": "./wallpapers/wallpaper_162.jpg"
+    },
+    {
+      "id": 163,
+      "title": "Floating in the sky",
+      "genre": ["Art","4K"],
+      "resolutionX": "5640",
+      "resolutionY": "2400",
+      "size": "5",
+      "description": "art 4k girl floating in the sky blue",
+      "orig": "./wallpapers/wallpaper_163.jpg"
+    },
+    {
+      "id": 164,
+      "title": "Angel in the dark",
+      "genre": ["Art"],
+      "resolutionX": "5640",
+      "resolutionY": "2400",
+      "size": "1",
+      "description": "art angel in the dark night black light",
+      "orig": "./wallpapers/wallpaper_164.jpg"
+    },
+    {
+      "id": 165,
+      "title": "Golden Horizon",
+      "genre": ["Art"],
+      "resolutionX": "2976",
+      "resolutionY": "1632",
+      "size": "5.9",
+      "description": "landscape art golden crops nature sun sky clouds",
+      "orig": "./wallpapers/wallpaper_165.png"
+    },
+    {
+      "id": 166,
+      "title": "Zero Two shinobi",
+      "genre": ["Art","Anime"],
+      "resolutionX": "1920",
+      "resolutionY": "1080",
+      "size": "1.1",
+      "description": "zero two dark katana shinobi samurai anime art darling in the franxx",
+      "orig": "./wallpapers/wallpaper_166.jpg"
+    },
+    {
+      "id": 167,
+      "title": "Azure Twilight",
+      "genre": ["Art"],
+      "resolutionX": "5000",
+      "resolutionY": "2363",
+      "size": "1.9",
+      "description": "sky azure twilight art mountain sky blue nature",
+      "orig": "./wallpapers/wallpaper_167.jpg"
+    },
+    {
+      "id": 168,
+      "title": "Moving out",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "1720",
+      "size": "3.3",
+      "description": "girl moving out city art",
+      "orig": "./wallpapers/wallpaper_168.jpg"
+    },
+    {
+      "id": 169,
+      "title": "Zero Two Meow Mix",
+      "genre": ["Art","Anime"],
+      "resolutionX": "3600",
+      "resolutionY": "2025",
+      "size": "1.5",
+      "description": "cat ear headphone zero two 02 anime art darling in the franxx",
+      "orig": "./wallpapers/wallpaper_169.jpg"
+    },
+    {
+      "id": 170,
+      "title": "Miku: Bleeding Melody",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.5",
+      "description": "hatsune miku 4k art vocaloid bleeding melody sadness",
+      "orig": "./wallpapers/wallpaper_170.jpg"
+    },
+    {
+      "id": 171,
+      "title": "Miku: Heavenly Connection",
+      "genre": ["Art","4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "3.7",
+      "description": "art 4k hatsune miku vocaloid stars heavenly connection",
+      "orig": "./wallpapers/wallpaper_171.jpg"
+    },
+    {
+      "id": 172,
+      "title": "Helmetman",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.4",
+      "description": "helmetman girl sitting art",
+      "orig": "./wallpapers/wallpaper_172.jpg"
+    },
+    {
+      "id": 173,
+      "title": "Cyber Investigation",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "1629",
+      "size": "4",
+      "description": "cyber investigation futuristic motorbike girl police",
+      "orig": "./wallpapers/wallpaper_173.jpg"
+    },
+    {
+      "id": 174,
+      "title": "Miku: Skyward Dreams",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.6",
+      "description": "art 4k hatsune miku vocaloid sky swing dream city night light",
+      "orig": "./wallpapers/wallpaper_174.jpg"
+    },
+    {
+      "id": 175,
+      "title": "Love live sunshine",
+      "genre": ["Anime"],
+      "resolutionX": "2560",
+      "resolutionY": "1440",
+      "size": "0.1",
+      "description": "anime Love live sunshine",
+      "orig": "./wallpapers/wallpaper_175.jpg"
+    },
+    {
+      "id": 176,
+      "title": "Miku: Luminous Waves",
+      "genre": ["Art"],
+      "resolutionX": "3100",
+      "resolutionY": "1350",
+      "size": "4.2",
+      "description": "hatsune miku vocaloid sea luminous waves light",
+      "orig": "./wallpapers/wallpaper_176.jpg"
+    },
+    {
+      "id": 177,
+      "title": "In the Heart of Study",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "3.2",
+      "description": "art japanese classroom school study",
+      "orig": "./wallpapers/wallpaper_177.jpg"
+    },
+    {
+      "id": 178,
+      "title": "Kantai collection",
+      "genre": ["Art","Anime"],
+      "resolutionX": "2560",
+      "resolutionY": "1868",
+      "size": "0.5",
+      "description": "kantai girl anime collection art morning waifu girl lying reading staring",
+      "orig": "./wallpapers/wallpaper_178.jpg"
+    },
+    {
+      "id": 179,
+      "title": "Ikki tousen",
+      "genre": ["Anime","Art","4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "1.9",
+      "description": "anime art 4k ikki tousen fighting school girl katana purple ",
+      "orig": "./wallpapers/wallpaper_179.jpg"
+    },
+    {
+      "id": 180,
+      "title": "Lucy Cyberpunk: Edgerunners",
+      "genre": ["Anime","4K"],
+      "resolutionX": "7680",
+      "resolutionY": "4320",
+      "size": "1.8",
+      "description": "lucy cyberpunk 2077 edgerunners anime 4k",
+      "orig": "./wallpapers/wallpaper_180.jpg"
+    },
+    {
+      "id": 181,
+      "title": "Quiet Corner",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2503",
+      "size": "3",
+      "description": "art quiet corner mossy alley girl blowing bubbles",
+      "orig": "./wallpapers/wallpaper_181.jpg"
+    },
+    {
+      "id": 182,
+      "title": "Nakiri ayame",
+      "genre": ["Anime","Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2179",
+      "size": "3.4",
+      "description": "anime art 4k girl blue sky nakiri ayame hololive",
+      "orig": "./wallpapers/wallpaper_182.jpg"
+    },
+    {
+      "id": 183,
+      "title": "One last time",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "3",
+      "description": "art aesthetic one last time anime girl walking sea night light",
+      "orig": "./wallpapers/wallpaper_183.jpg"
+    },
+    {
+      "id": 184,
+      "title": "Endless Journey",
+      "genre": ["Anime","Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.3",
+      "description": "anime art one piece luffy endless journey",
+      "orig": "./wallpapers/wallpaper_184.jpg"
+    },
+    {
+      "id": 185,
+      "title": "Mia fujikawa",
+      "genre": ["Art","4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.4",
+      "description": "mia fujikawa art 4k girl loopers",
+      "orig": "./wallpapers/wallpaper_185.jpg"
+    },
+    {
+      "id": 186,
+      "title": "Silent Tears",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2540",
+      "size": "2.3",
+      "description": "silent tears rain art 4k girl ",
+      "orig": "./wallpapers/wallpaper_186.jpg"
+    },
+    {
+      "id": 187,
+      "title": "In the Heat of War",
+      "genre": ["Art", "4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2839",
+      "size": "6.8",
+      "description": "art 4k war heat girl weapon shooting gun soldier military",
+      "orig": "./wallpapers/wallpaper_187.jpg"
+    },
+    {
+      "id": 188,
+      "title": "Cosmic Snapshot",
+      "genre": ["Art"],
+      "resolutionX": "6000",
+      "resolutionY": "2206",
+      "size": "4",
+      "description": "cosmic snapshot schoolgirl spaceship futuristic alien",
+      "orig": "./wallpapers/wallpaper_188.jpg"
+    },
+    {
+      "id": 189,
+      "title": "Ump45 Girls frontline",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "2.6",
+      "description": "ump9 girls frontline art 4k weapon gun abandon city",
+      "orig": "./wallpapers/wallpaper_189.jpg"
+    },
+    {
+      "id": 190,
+      "title": "Zero Two: Mechanical Pulse",
+      "genre": ["Anime","Art"],
+      "resolutionX": "2560",
+      "resolutionY": "1440",
+      "size": "1.8",
+      "description": "anime art mechanical pulse zero two 02 pink darling in the franxx",
+      "orig": "./wallpapers/wallpaper_190.jpg"
+    },
+    {
+      "id": 191,
+      "title": "Wuthering Waves",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "2880",
+      "size": "3.3",
+      "description": "art wuthering waves wuwa rover",
+      "orig": "./wallpapers/wallpaper_191.jpg"
+    },
+    {
+      "id": 192,
+      "title": "Symphony of Fate",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2179",
+      "size": "2.5",
+      "description": "art 4k symphony of fate sky girl aesthetic",
+      "orig": "./wallpapers/wallpaper_192.jpg"
+    },
+    {
+      "id": 193,
+      "title": "Sky Blossom",
+      "genre": ["Art","4K"],
+      "resolutionX": "3800",
+      "resolutionY": "2460",
+      "size": "16.2",
+      "description": "art 4k sky blossom anime girl nature flower colorful red pink",
+      "orig": "./wallpapers/wallpaper_193.png"
+    },
+    {
+      "id": 194,
+      "title": "End of Wandering",
+      "genre": ["4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2150",
+      "size": "1.3",
+      "description": "4k piano shorekeeper wuthering waves melody blue",
+      "orig": "./wallpapers/wallpaper_194.jpg"
+    },
+    {
+      "id": 195,
+      "title": "Miku: Digital Dreamscape",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2514",
+      "size": "3.8",
+      "description": "digital dreamscape tv hatsune miku vocaloid blue aesthetic art",
+      "orig": "./wallpapers/wallpaper_195.jpg"
+    },
+    {
+      "id": 196,
+      "title": "Neon Flavors",
+      "genre": ["Art","4K"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.1",
+      "description": "neon flavors anime girl pink art 4k urban light",
+      "orig": "./wallpapers/wallpaper_196.jpg"
+    },
+    {
+      "id": 197,
+      "title": "Miku: Silent Rhythm",
+      "genre": ["Art","4K"],
+      "resolutionX": "5000",
+      "resolutionY": "2318",
+      "size": "4.6",
+      "description": "art 4k miku hatsune vocaloid urban silent rhythm",
+      "orig": "./wallpapers/wallpaper_197.jpg"
+    },
+    {
+      "id": 198,
+      "title": "Miku: Radiant vibe",
+      "genre": ["Art"],
+      "resolutionX": "5120",
+      "resolutionY": "3066",
+      "size": "3.3",
+      "description": "hatsune miku radiant vibe blue art",
+      "orig": "./wallpapers/wallpaper_198.jpg"
+    },
+    {
+      "id": 199,
+      "title": "When the Sun Rises",
+      "genre": ["Art","4K"],
+      "resolutionX": "5120",
+      "resolutionY": "2179",
+      "size": "1.6",
+      "description": "when the sun rises art 4k girl morning",
+      "orig": "./wallpapers/wallpaper_199.jpg"
+    },
+    {
+      "id": 200,
+      "title": "Lavender Rails",
+      "genre": ["Art"],
+      "resolutionX": "3840",
+      "resolutionY": "2160",
+      "size": "2.3",
+      "description": "lavender rails purple aesthetic train art",
+      "orig": "./wallpapers/wallpaper_200.jpg"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+.home__heading{
+    width: 800px;
+height:  216px;
+margin: 0 auto;
+gap: 0px;
+opacity: 0px;
+font-family: "Roboto", serif;
+font-size: 90px;
+font-weight: 700;
+line-height: 108px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+.home__description{
+    width:  372px;
+height: 60px;
+
+
+font-family: 'DM Sans', sans-serif;
+
+gap: 0px;
+opacity: 0px;
+
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+
+
+
+.know__more {
+    font-family: "Roboto", serif;
+    width: 140px;
+    height: 40px;
+    border: 2px solid white;
+    padding: 12px 24px;
+    gap: 8px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: white; /* Ensure text is visible */
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.know__more:hover {
+    background: white;
+    color: black;
+    transform: scale(1.05);
+}
+.know__more__text {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Roboto", serif;
+}
+
+
+
+.explore__btn {
+    position: relative; /* equivalent to 'group relative' */
+    display: flex; /* flex container */
+    width: fit-content; /* equivalent to 'w-fit' */
+    align-items: center; /* align items to center */
+    gap: 6px; /* 'gap-1.5' (Tailwind 1.5 is ~6px) */
+    border-radius: 9999px; /* 'rounded-full' */
+    background-color: rgba(10, 10, 10, 0.1); /* 'bg-gray-950/10' */
+    padding: 8px 16px; /* 'px-4 py-2' (Tailwind px-4 = 16px, py-2 = 8px) */
+    color: rgb(250, 250, 250); /* 'text-gray-50' */
+    transition: all 0.2s ease-in-out; /* 'transition-colors' */
+    backdrop-filter: blur(4px); /* Applies blur effect */
+    font-family: "Roboto", serif;
+  }
+  
+  .explore__btn:hover {
+    background-color: rgba(10, 10, 10, 0.5); /* 'hover:bg-gray-950/50' */
+  }
+  
+
+.buttons__box{
+    display: flex;
+margin-top: 70px;
+
+    align-items: center;
+    
+    justify-content: center;
+}
+
+
+
+.home__box{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+    
+}
+.home__second__box{
+    z-index: 2;
+  
+}
+

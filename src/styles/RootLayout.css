@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav-profile-image-container {
+  width: 40px; /* Set width of the container */
+  height: 40px; /* Set height of the container */
+  border-radius: 50%; /* Make the container circular */
+  overflow: hidden; /* Hide overflow content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px; /* Add margin around the container */
+  border: 1px solid transparent;
+}
+
+/* Profile image styling */
+.nav-profile-image {
+  width: 100%; /* Make the div take up the full width of the container */
+  height: 100%; /* Make the div take up the full height of the container */
+  background-size: cover; /* Ensure the background image covers the container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+
+}
+
+.header__site {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10; /* Make sure it stays on top of other content */
+}
+.header__site.scrolled {
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* Slight dark background to increase contrast */
+}
+.homer__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+.homer__input__btn {
+  background-color: transparent;
+  border: 1px solid;
+  height: 100%;
+  width: 42px;
+  color: white;
+  border: none;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  cursor: pointer;
+}
+.homer__input__child {
+  color: white;
+  padding-left: 15px;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+.homer__input__child::placeholder {
+  color: white;
+}
+/* Navbar styling */
+.app__nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px; /* Optional: Add some padding for better spacing */
+}
+/* Navigation links styling */
+.app__nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Align items to the left */
+  list-style: none; /* Remove default list styling */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  width: 100%;
+}
+.nav-link {
+  margin: 0 20px; /* Reduced space between list items */
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: white;
+  padding: 3px 6px 3px 6px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-weight: 600;
+}
+.nav-link:hover {
+  transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
+.nav-link.active {
+  gap: 8px;
+  padding: 3px 6px 3px 6px;
+  border-radius: 5px;
+  opacity: 0px;
+  border: 1px solid rgba(59, 59, 59, 1);
+  background: rgba(0, 0, 0, 1);
+}
+.nav__pixel__link.active {
+  padding: 3px 6px 3px 6px;
+  background-image: linear-gradient(
+    43deg,
+    rgba(255, 224, 116, 1) 20%,
+    rgba(80, 202, 228, 1) 52%,
+    rgba(155, 92, 255, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+/* Responsive Navbar */
+.open-sidebar-btn,
+.close-sidebar-btn {
+  display: none;
+}
+.ul__icon {
+  font-size: 24px;
+  color: white;
+}
+
+.nav__pixel__link {
+  background-image: linear-gradient(
+    43deg,
+    rgba(255, 224, 116, 1) 20%,
+    rgba(80, 202, 228, 1) 52%,
+    rgba(155, 92, 255, 1) 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+/* RootLayout.css */
+/* RootLayout.css */
+
+/* Style for the pop-up message */
+.popup-message {
+  position: fixed;
+  top: 20px;
+  font-family: "Inter", sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  z-index: 1000;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.popup__video {
+  width: 30px;
+  height: 30px;
+}
+
+.popup__text {
+  margin-left: 10px;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  @media (max-width: 655px) {
+    .popup-message {
+     font-size: 13px;
+     width: 300px;
+    }
+  
+  }
+  
+  @media (max-width: 350) {
+    .popup-message {
+      font-size: 13px;
+      width: 200px;
+      
+    }
+  
+  }
