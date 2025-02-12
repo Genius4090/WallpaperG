@@ -8,7 +8,7 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
   // Check if the image is in the collection when the modal opens
   useEffect(() => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
-    setIsCollected(currentCollection.some((item) => item.orig === selected.orig));
+    setIsCollected(currentCollection.some((item) => item.orig === selected.orig)); 
   }, [selected.orig]);
 
   const handleToggleCollection = () => {
@@ -26,19 +26,20 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
   };
 
   const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".jpg";
+    const fileName = selected.title.split(" ").join("_") + ".jpg"; // Using title for file name
 
-    // Create a temporary anchor element
-    const downloadLink = document.createElement('a');
-    downloadLink.href = selected.orig;  // Use the public path for the image
-    downloadLink.download = fileName;  // Set the download file name
-    document.body.appendChild(downloadLink);
-
-    // Trigger the click event to start the download
-    downloadLink.click();
-
-    // Clean up by removing the link element
-    document.body.removeChild(downloadLink);
+    fetch(selected.orig)  // Fetch the image using the orig URL
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = fileName;  // Set download file name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch(error => console.error('Download error:', error));
   };
 
   const handleCloseModal = () => {
@@ -47,14 +48,6 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
       closeModal();
     }, 300);
   };
-
-  // Check if we're in a production environment (Vercel)
-  const isProduction = process.env.NODE_ENV === 'production';
-
-  // Adjust the image path based on the environment
-  const correctedOrigPath = isProduction
-    ? selected.orig.replace('./', '/')
-    : selected.orig;  // Keep the relative path for development
 
   return (
     <div className="modal-overlay" onClick={handleCloseModal}>
@@ -69,7 +62,7 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
         <div className='modal__image__box'>
           <img
             className="modal-image"
-            src={correctedOrigPath}  // Use the corrected path here
+            src={selected.orig}
             alt={selected.title}
           />
         </div>
