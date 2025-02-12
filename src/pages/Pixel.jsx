@@ -82,28 +82,6 @@ function Pixel() {
           {/* Handle loading and error states */}
           {loading && <div>Loading...</div>}
           {error && <div>Error: {error}</div>}
-
-          {/* Render data only if available */}
-          {dataList && !loading && !error && (
-            <div className="pixel__carousel animate__animated animate__fadeInLeft">
-              <button className="carousel__btn prev" onClick={goToPrevSlide}>
-                &#10094;
-              </button>
-              <div
-                className="carousel__images"
-                style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-              >
-                {dataList.map((item, index) => (
-                  <div key={item.id} className="carousel__slide">
-                    <img src={item.image} alt={item.title} />
-                  </div>
-                ))}
-              </div>
-              <button className="carousel__btn next" onClick={goToNextSlide}>
-                &#10095;
-              </button>
-            </div>
-          )}
         </div>
       </div>
     </div>

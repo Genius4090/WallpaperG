@@ -127,7 +127,7 @@
   background: rgb(175, 11, 216);
   cursor: pointer;
   border-radius: 5px;
-  margin-top: 30px;
+  margin: 30px 0px 60px 0px;
 }
 
 .pixel__download__text {
@@ -150,71 +150,10 @@ padding: 0px 20px;
 .pixel__main__section {
   display: flex;
   flex-direction: column;
+
 }
 
 /* Container for the carousel */
-.pixel__carousel {
-  position: relative;
-  width: 100%;
-  max-width: 1200px; /* Adjust max-width for larger carousel */
-  margin: 40px auto; /* Adds 40px margin on top and bottom of the carousel */
-
-
-  overflow: hidden;
-}
-
-/* Flex container for the slides */
-.carousel__images {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  
-}
-
-/* Each carousel slide */
-.carousel__slide {
-  min-width: 100%;
-  height: auto; /* Ensure the height adjusts based on the image's aspect ratio */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Image styling */
-.carousel__slide img {
-  width: 100%;
-  height: auto; /* Keep the aspect ratio intact */
-  object-fit: cover; /* Ensure the image covers the area without distortion */
-  max-height: 500px; /* Set a max height for the images */
-  display: block;
-  margin: 40 auto; /* Center the image */
-  
-}
-
-/* Previous and next buttons */
-.carousel__btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 24px;
-  padding: 10px;
-  cursor: pointer;
-  border: none;
-  z-index: 10;
-}
-
-.carousel__btn.prev {
-  left: 10px;
-}
-
-.carousel__btn.next {
-  right: 10px;
-}
-
-.carousel__btn:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
 @media (min-width: 1256px) {
   .pixel__heading__box {
     padding: 0px 20px;
