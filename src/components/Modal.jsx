@@ -24,25 +24,12 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
       setIsCollected(true);
     }
   };
-
   const handleDownload = () => {
-    console.log('Selected object:', selected); // Log the selected object to debug
-
-    const fileName = selected.title ? selected.title.split(" ").join("_") + ".jpg" : "default_title.jpg";
-
-    fetch(selected.orig)
-      .then(response => response.blob())
-      .then(blob => {
-        const url = window.URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = fileName;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      })
-      .catch(error => console.error('Download error:', error));
+    // Create a custom filename using the selected title
+    const fileName = selected.title.split(" ").join("_") + ".png"; // Using .png extension
+    setDownloadLink({ image: selected.orig, fileName });
   };
+  
 
   const handleCloseModal = () => {
     setIsClosing(true);
