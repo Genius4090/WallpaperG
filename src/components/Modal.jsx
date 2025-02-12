@@ -76,15 +76,20 @@ function Modal({ selected, closeModal }) {
         }`}
         onClick={(e) => e.stopPropagation()}
       >
+        {/* Skeleton for Modal Header */}
         <div className="modal__box1">
-          <p className="modal__title">{selected.title}</p>
+          {loading ? (
+            <Skeleton width="100%" height={40} />
+          ) : (
+            <p className="modal__title">{selected.title}</p>
+          )}
           <i
             onClick={handleCloseModal}
             className="bx bx-x modal__close__btn"
           ></i>
         </div>
 
-        {/* Skeleton Loader for Image */}
+        {/* Skeleton for Image */}
         <div className="modal__image__box">
           {loading ? (
             <Skeleton
@@ -106,40 +111,60 @@ function Modal({ selected, closeModal }) {
           )}
         </div>
 
+        {/* Skeleton for Modal Body */}
         <div className="modal__box2">
           <div className="modal__minibox__1">
-            <h2 className="modal__resolution__text">
-              <i className="ri-computer-line modal__pc__icon"></i>
-              {selected.resolutionX}{" "}
-              <i className="bx bx-x resolution__text__space"></i>{" "}
-              {selected.resolutionY}
-            </h2>
-            <h2 className="modal__size__text">
-              <i className="ri-download-2-line modal__size__icon"></i>{" "}
-              {selected.size} MB
-            </h2>
+            {loading ? (
+              <>
+                <Skeleton width="70%" height={30} />
+                <Skeleton width="50%" height={30} />
+              </>
+            ) : (
+              <>
+                <h2 className="modal__resolution__text">
+                  <i className="ri-computer-line modal__pc__icon"></i>
+                  {selected.resolutionX}{" "}
+                  <i className="bx bx-x resolution__text__space"></i>{" "}
+                  {selected.resolutionY}
+                </h2>
+                <h2 className="modal__size__text">
+                  <i className="ri-download-2-line modal__size__icon"></i>{" "}
+                  {selected.size} MB
+                </h2>
+              </>
+            )}
           </div>
 
+          {/* Skeleton for Buttons */}
           <div className="modal__minibox__2">
-            <button
-              className="modal__collect__btn"
-              onClick={handleToggleCollection}
-              style={{
-                backgroundColor: isCollected
-                  ? "#6200ea"
-                  : "rgba(255, 0, 170, 1)",
-              }}
-            >
-              {isCollected ? (
-                <i className="ri-bookmark-fill modal__iscollected__icon"></i>
-              ) : (
-                <i className="ri-bookmark-line modal__iscollected__icon"></i>
-              )}
-              {isCollected ? "Remove" : "Collect"}
-            </button>
-            <button className="modal__download__btn" onClick={handleDownload}>
-              Download
-            </button>
+            {loading ? (
+              <>
+                <Skeleton variant="rectangular" width={100} height={40} />
+                <Skeleton variant="rectangular" width={100} height={40} />
+              </>
+            ) : (
+              <>
+                <button
+                  className="modal__collect__btn"
+                  onClick={handleToggleCollection}
+                  style={{
+                    backgroundColor: isCollected
+                      ? "#6200ea"
+                      : "rgba(255, 0, 170, 1)",
+                  }}
+                >
+                  {isCollected ? (
+                    <i className="ri-bookmark-fill modal__iscollected__icon"></i>
+                  ) : (
+                    <i className="ri-bookmark-line modal__iscollected__icon"></i>
+                  )}
+                  {isCollected ? "Remove" : "Collect"}
+                </button>
+                <button className="modal__download__btn" onClick={handleDownload}>
+                  Download
+                </button>
+              </>
+            )}
           </div>
         </div>
       </div>
@@ -148,4 +173,3 @@ function Modal({ selected, closeModal }) {
 }
 
 export default memo(Modal);
-``
