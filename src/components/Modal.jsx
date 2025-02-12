@@ -33,7 +33,14 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
         // Find the correct image title from data.json
         const imageData = data.find(img => img.orig === selected.orig);
         const fileName = imageData ? imageData.title.split(" ").join("_") + ".jpg" : "default.jpg";
-        setDownloadLink({ image: selected.orig, fileName });
+  
+        // Create a link element, set its download attribute and click it to trigger the download
+        const link = document.createElement('a');
+        link.href = selected.orig;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
       })
       .catch(error => console.error('Error fetching data.json:', error));
   };
