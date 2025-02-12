@@ -5,19 +5,11 @@ function Modal({ selected, closeModal }) {
   const [isCollected, setIsCollected] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
   const [isImageLoaded, setIsImageLoaded] = useState(false);
-  const [imageDimensions, setImageDimensions] = useState({ width: 0, height: 0 });
 
+  // Check if the image is in the collection when the modal opens
   useEffect(() => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
-    setIsCollected(currentCollection.some((item) => item.orig === selected.orig));
-
-    // Preload image to get dimensions
-    const img = new Image();
-    img.src = selected.orig;
-    img.onload = () => {
-      setImageDimensions({ width: img.width, height: img.height });
-      setIsImageLoaded(true);
-    };
+    setIsCollected(currentCollection.some((item) => item.orig === selected.orig)); 
   }, [selected.orig]);
 
   const handleToggleCollection = () => {
@@ -35,15 +27,15 @@ function Modal({ selected, closeModal }) {
   };
 
   const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".jpg";
+    const fileName = selected.title.split(" ").join("_") + ".jpg"; // Using title for file name
 
-    fetch(selected.orig)
+    fetch(selected.orig)  // Fetch the image using the orig URL
       .then(response => response.blob())
       .then(blob => {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement("a");
         link.href = url;
-        link.download = fileName;
+        link.download = fileName;  // Set download file name
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -58,6 +50,10 @@ function Modal({ selected, closeModal }) {
     }, 300);
   };
 
+  const handleImageLoad = () => {
+    setIsImageLoaded(true);
+  };
+
   return (
     <div className="modal-overlay" onClick={handleCloseModal}>
       <div
@@ -68,13 +64,22 @@ function Modal({ selected, closeModal }) {
           <p className='modal__title'>{selected.title}</p>
           <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
         </div>
-        <div className='modal__image__box' style={{ width: imageDimensions.width, height: imageDimensions.height }}>
-          {!isImageLoaded && <div className="skeleton-loader" style={{ width: '100%', height: '100%' }}></div>}
+
+        {/* Skeleton Loader for Image */}
+        {!isImageLoaded && (
+          <div className="modal-skeleton">
+            <div className="modal-skeleton__image"></div>
+            <div className="modal-skeleton__text"></div>
+            <div className="modal-skeleton__button"></div>
+          </div>
+        )}
+
+        <div className='modal__image__box'>
           <img
-            className="modal-image"
+            className={`modal-image ${isImageLoaded ? 'loaded' : 'loading'}`}
             src={selected.orig}
             alt={selected.title}
-            style={{ display: isImageLoaded ? 'block' : 'none' }}
+            onLoad={handleImageLoad}
           />
         </div>
 

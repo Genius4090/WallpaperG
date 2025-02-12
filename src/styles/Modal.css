@@ -353,3 +353,47 @@
 }
 
 
+/* Skeleton Loader Styles */
+.modal-skeleton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.modal-skeleton__image {
+  width: 100%;
+  height: 200px;
+  background: #ccc;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.modal-skeleton__text {
+  width: 80%;
+  height: 20px;
+  background: #ccc;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.modal-skeleton__button {
+  width: 60%;
+  height: 40px;
+  background: #ccc;
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
