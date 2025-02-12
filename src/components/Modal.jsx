@@ -26,9 +26,21 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
   };
 
   const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".jpg"; 
-    setDownloadLink({ image: selected.orig, fileName });
+    const fileName = selected.title.split(" ").join("_") + ".jpg";
+  
+    // Create a temporary anchor element
+    const downloadLink = document.createElement('a');
+    downloadLink.href = selected.orig;  // Use the public path for the image
+    downloadLink.download = fileName;  // Set the download file name
+    document.body.appendChild(downloadLink);
+    
+    // Trigger the click event to start the download
+    downloadLink.click();
+    
+    // Clean up by removing the link element
+    document.body.removeChild(downloadLink);
   };
+  
 
   const handleCloseModal = () => {
     setIsClosing(true);
