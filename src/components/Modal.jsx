@@ -1,7 +1,7 @@
 import React, { useEffect, useState, memo } from 'react';
 import '../styles/Modal.css';
 
-function Modal({ selected, closeModal }) {
+function Modal({ selected, closeModal}) {
   const [isCollected, setIsCollected] = useState(false);
   const [isClosing, setIsClosing] = useState(false);
 
@@ -28,14 +28,13 @@ function Modal({ selected, closeModal }) {
   const handleDownload = () => {
     const fileName = selected.title.split(" ").join("_") + ".jpg"; // Using title for file name
 
-    // Use the orig URL to download the image
     fetch(selected.orig)  // Fetch the image using the orig URL
       .then(response => response.blob())
       .then(blob => {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement("a");
         link.href = url;
-        link.download = fileName;  // Set the downloaded file name
+        link.download = fileName;  // Set download file name
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -61,10 +60,9 @@ function Modal({ selected, closeModal }) {
           <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
         </div>
         <div className='modal__image__box'>
-          {/* Load the image from the extend key */}
           <img
             className="modal-image"
-            src={selected.extend}  // Display image from selected.extend
+            src={selected.orig}
             alt={selected.title}
           />
         </div>

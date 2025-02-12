@@ -284,17 +284,19 @@ function TripList() {
             
             </div>
           )}
-      {displayedList &&
+
+{displayedList &&
   displayedList.map((obj) => (
     <div key={obj.id} className="triplist__card animate__animated animate__fadeInUp">
       <LazyBackground
         className="triplist__image"
-        src={obj.orig}
+        src={obj.extend}  // Use 'extend' for the list display
         alt={obj.title}
-        onClick={() => openModal(obj)}
+        onClick={() => openModal(obj)}  // Pass the whole object to the modal
       />
     </div>
   ))}
+
 
 
         </div>
