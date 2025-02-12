@@ -2,7 +2,7 @@
   "trips": [
     {
       "id": 1,
-      "extend" : "./extend/extend_wallpaper_2.png"   ,
+      "extend": "./extend/extend_wallpaper_1.jpg",
       "title": "Sunflower girl",
       "genre": ["4K", "Anime"],
       "resolutionX": "5120",
@@ -13,6 +13,7 @@
     },
     {
       "id": 2,
+      "extend": "./extend/extend_wallpaper_2.jpg",
       "title": "Anime girl train station",
       "genre": ["Art", "Anime"],
       "resolutionX": "5120",
@@ -23,6 +24,7 @@
     },
     {
       "id": 3,
+      "extend": "./extend/extend_wallpaper_3.jpg",
       "title": "Makima Chainsaw-man",
       "genre": ["Art", "Anime"],
       "resolutionX": "3840",
@@ -33,6 +35,7 @@
     },
     {
       "id": 4,
+      "extend": "./extend/extend_wallpaper_4.jpg",
       "title": "Power Chainsaw-man",
       "genre": ["Anime", "Art", "4K"],
       "resolutionX": "3840",
@@ -43,6 +46,7 @@
     },
     {
       "id": 5,
+      "extend": "./extend/extend_wallpaper_5.jpg",
       "title": "Sitting at train station",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -53,6 +57,7 @@
     },
     {
       "id": 6,
+      "extend": "./extend/extend_wallpaper_6.jpg",
       "title": "Girl holding head soulful",
       "genre": ["4K", "Art"],
       "resolutionX": "5120",
@@ -63,6 +68,7 @@
     },
     {
       "id": 7,
+      "extend": "./extend/extend_wallpaper_7.jpg",
       "title": "Astronaut x Angel",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -73,6 +79,7 @@
     },
     {
       "id": 8,
+      "extend": "./extend/extend_wallpaper_8.jpg",
       "title": "Somewhere in between",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -83,6 +90,7 @@
     },
     {
       "id": 9,
+      "extend": "./extend/extend_wallpaper_9.jpg",
       "title": "Urban serenity",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -93,6 +101,7 @@
     },
     {
       "id": 10,
+      "extend": "./extend/extend_wallpaper_10.jpg",
       "title": "Seele vollerei Honkai impact",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -103,6 +112,7 @@
     },
     {
       "id": 11,
+      "extend": "./extend/extend_wallpaper_11.jpg",
       "title": "Hatsune Miku",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -113,6 +123,7 @@
     },
     {
       "id": 12,
+      "extend": "./extend/extend_wallpaper_12.jpg",
       "title": "Anime girl 4K",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -123,6 +134,7 @@
     },
     {
       "id": 13,
+      "extend": "./extend/extend_wallpaper_13.jpg",
       "title": "Lucy Cyberpunk: Edgerunners",
       "genre": ["Anime", "Art", "4K"],
       "resolutionX": "5588",
@@ -133,6 +145,7 @@
     },
     {
       "id": 14,
+      "extend": "./extend/extend_wallpaper_14.jpg",
       "title": "Moonlight shore",
       "genre": ["Art"],
       "resolutionX": "2000",
@@ -143,6 +156,7 @@
     },
     {
       "id": 15,
+      "extend": "./extend/extend_wallpaper_15.jpg",
       "title": "Shooting stars midnight sun",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -153,6 +167,7 @@
     },
     {
       "id": 16,
+      "extend": "./extend/extend_wallpaper_16.jpg",
       "title": "Girl with balloons",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -163,6 +178,7 @@
     },
     {
       "id": 17,
+      "extend": "./extend/extend_wallpaper_17.jpg",
       "title": "Suzume closing the doors",
       "genre": ["Anime", "Art", "4K"],
       "resolutionX": "10000",
@@ -173,6 +189,7 @@
     },
     {
       "id": 18,
+      "extend": "./extend/extend_wallpaper_18.png",
       "title": "Hatsune Miku Alternative",
       "genre": ["Art"],
       "resolutionX": "2500",
@@ -183,6 +200,7 @@
     },
     {
       "id": 19,
+      "extend": "./extend/extend_wallpaper_19.jpg",
       "title": "Ump9 Girls frontline",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -193,6 +211,7 @@
     },
     {
       "id": 20,
+      "extend": "./extend/extend_wallpaper_20.jpg",
       "title": "Sorasaki Hina blue archive",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -203,6 +222,7 @@
     },
     {
       "id": 21,
+      "extend": "./extend/extend_wallpaper_21.jpg",
       "title": "Arknights Texas",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -213,6 +233,7 @@
     },
     {
       "id": 22,
+      "extend": "./extend/extend_wallpaper_22.jpg",
       "title": "Nightwalk",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -223,6 +244,7 @@
     },
     {
       "id": 23,
+      "extend": "./extend/extend_wallpaper_23.jpg",
       "title": "Saria Arknights",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -233,6 +255,7 @@
     },
     {
       "id": 24,
+      "extend": "./extend/extend_wallpaper_24.jpg",
       "title": "Exusiai Arknights",
       "genre": ["Art"],
       "resolutionX": "3790",
@@ -243,6 +266,7 @@
     },
     {
       "id": 25,
+      "extend": "./extend/extend_wallpaper_25.jpg",
       "title": "Tunnel to Summer",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -253,6 +277,7 @@
     },
     {
       "id": 26,
+      "extend": "./extend/extend_wallpaper_26.jpg",
       "title": "Saber Fate Grand Order",
       "genre": ["Anime", "Art"],
       "resolutionX": "1920",
@@ -263,6 +288,7 @@
     },
     {
       "id": 27,
+      "extend": "./extend/extend_wallpaper_27.png",
       "title": "Zero Two",
       "genre": ["Anime", "Art"],
       "resolutionX": "2912",
@@ -273,6 +299,7 @@
     },
     {
       "id": 28,
+      "extend": "./extend/extend_wallpaper_28.jpg",
       "title": "Frieren: Beyond Journey's End",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -283,6 +310,7 @@
     },
     {
       "id": 29,
+      "extend": "./extend/extend_wallpaper_29.jpg",
       "title": "Gazing at the sea",
       "genre": ["Art"],
       "resolutionX": "5640",
@@ -293,6 +321,7 @@
     },
     {
       "id": 30,
+      "extend": "./extend/extend_wallpaper_30.jpg",
       "title": "Frieren: Beyond Journey's End",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -303,6 +332,7 @@
     },
     {
       "id": 31,
+      "extend": "./extend/extend_wallpaper_31.jpg",
       "title": "Glowing field",
       "genre": ["4K", "Anime"],
       "resolutionX": "6000",
@@ -313,6 +343,7 @@
     },
     {
       "id": 32,
+      "extend": "./extend/extend_wallpaper_32.jpg",
       "title": "Girls frontline",
       "genre": ["Art", "4K"],
       "resolutionX": "4000",
@@ -323,6 +354,7 @@
     },
     {
       "id": 33,
+      "extend": "./extend/extend_wallpaper_33.jpg",
       "title": "Hatoba Tsugu",
       "genre": ["Art", "4K"],
       "resolutionX": "4364",
@@ -333,6 +365,7 @@
     },
     {
       "id": 34,
+      "extend": "./extend/extend_wallpaper_34.jpg",
       "title": "Call of Dragons",
       "genre": ["Art"],
       "resolutionX": "7111",
@@ -343,6 +376,7 @@
     },
     {
       "id": 35,
+      "extend": "./extend/extend_wallpaper_35.jpg",
       "title": "Free fallen",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -353,6 +387,7 @@
     },
     {
       "id": 36,
+      "extend": "./extend/extend_wallpaper_36.jpg",
       "title": "Hatsune Miku",
       "genre": ["Art"],
       "resolutionX": "2560",
@@ -363,6 +398,7 @@
     },
     {
       "id": 37,
+      "extend": "./extend/extend_wallpaper_37.jpg",
       "title": "Hatsune Miku Vocaloid",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -373,6 +409,7 @@
     },
     {
       "id": 38,
+      "extend": "./extend/extend_wallpaper_38.jpg",
       "title": "Yae Miko genshin impact",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -383,6 +420,7 @@
     },
     {
       "id": 39,
+      "extend": "./extend/extend_wallpaper_39.jpg",
       "title": "Zero Two",
       "genre": ["Anime", "Art"],
       "resolutionX": "2560",
@@ -393,6 +431,7 @@
     },
     {
       "id": 40,
+      "extend": "./extend/extend_wallpaper_40.jpg",
       "title": "Ryo yamada",
       "genre": ["Anime", "Art"],
       "resolutionX": "3840",
@@ -403,6 +442,7 @@
     },
     {
       "id": 41,
+      "extend": "./extend/extend_wallpaper_41.jpg",
       "title": "Melanchony in the rain",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -413,6 +453,7 @@
     },
     {
       "id": 42,
+      "extend": "./extend/extend_wallpaper_42.jpg",
       "title": "Burning the past",
       "genre": ["4K", "Art"],
       "resolutionX": "3840",
@@ -423,6 +464,7 @@
     },
     {
       "id": 43,
+      "extend": "./extend/extend_wallpaper_43.jpg",
       "title": "Ninomae ina'nis and Takodachi",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -433,6 +475,7 @@
     },
     {
       "id": 44,
+      "extend": "./extend/extend_wallpaper_44.jpg",
       "title": "Dark witch",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -443,6 +486,7 @@
     },
     {
       "id": 45,
+      "extend": "./extend/extend_wallpaper_45.jpg",
       "title": "I'ts what's happening",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -453,6 +497,7 @@
     },
     {
       "id": 46,
+      "extend": "./extend/extend_wallpaper_46.jpg",
       "title": "Mita",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -463,6 +508,7 @@
     },
     {
       "id": 47,
+      "extend": "./extend/extend_wallpaper_47.jpg",
       "title": "Angel",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -473,6 +519,7 @@
     },
     {
       "id": 48,
+      "extend": "./extend/extend_wallpaper_48.jpg",
       "title": "Acorecell angel",
       "genre": ["Art", "4K"],
       "resolutionX": "5500",
@@ -483,6 +530,7 @@
     },
     {
       "id": 49,
+      "extend": "./extend/extend_wallpaper_49.jpg",
       "title": "Black rock shooter",
       "genre": ["Art"],
       "resolutionX": "2560",
@@ -493,6 +541,7 @@
     },
     {
       "id": 50,
+      "extend": "./extend/extend_wallpaper_50.jpg",
       "title": "Loneliness",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -503,6 +552,7 @@
     },
     {
       "id": 51,
+      "extend": "./extend/extend_wallpaper_51.jpg",
       "title": "Nissan gtr r34",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -513,6 +563,7 @@
     },
     {
       "id": 52,
+      "extend": "./extend/extend_wallpaper_52.jpg",
       "title": "Primrose dreams",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -523,6 +574,7 @@
     },
     {
       "id": 53,
+      "extend": "./extend/extend_wallpaper_53.jpg",
       "title": "Skyward halo angel",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -533,6 +585,7 @@
     },
     {
       "id": 54,
+      "extend": "./extend/extend_wallpaper_54.jpg",
       "title": "Mecha 02",
       "genre": ["Art", "Anime"],
       "resolutionX": "3840",
@@ -543,6 +596,7 @@
     },
     {
       "id": 55,
+      "extend": "./extend/extend_wallpaper_55.jpg",
       "title": "Ethereal Nights",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -553,6 +607,7 @@
     },
     {
       "id": 56,
+      "extend": "./extend/extend_wallpaper_56.jpg",
       "title": "Angel girl in grocery",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -563,6 +618,7 @@
     },
     {
       "id": 57,
+      "extend": "./extend/extend_wallpaper_57.jpg",
       "title": "Alone at road",
       "genre": ["Art"],
       "resolutionX": "7680",
@@ -573,6 +629,7 @@
     },
     {
       "id": 58,
+      "extend": "./extend/extend_wallpaper_58.jpg",
       "title": "Little sweeties (extremely squishy)",
       "genre": ["Art"],
       "resolutionX": "1280",
@@ -583,6 +640,7 @@
     },
     {
       "id": 59,
+      "extend": "./extend/extend_wallpaper_59.jpg",
       "title": "Hatsune Miku Hawai",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -593,6 +651,7 @@
     },
     {
       "id": 60,
+      "extend": "./extend/extend_wallpaper_60.jpg",
       "title": "Starry night",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -603,6 +662,7 @@
     },
     {
       "id": 61,
+      "extend": "./extend/extend_wallpaper_61.jpg",
       "title": "Run for the Hills",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -613,6 +673,7 @@
     },
     {
       "id": 62,
+      "extend": "./extend/extend_wallpaper_62.jpg",
       "title": "Natural security",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -623,6 +684,7 @@
     },
     {
       "id": 63,
+      "extend": "./extend/extend_wallpaper_63.jpg",
       "title": "Digital Love",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -633,6 +695,7 @@
     },
     {
       "id": 64,
+      "extend": "./extend/extend_wallpaper_64.jpg",
       "title": "Sagume Kishin touhou",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -643,6 +706,7 @@
     },
     {
       "id": 65,
+      "extend": "./extend/extend_wallpaper_65.jpg",
       "title": "Hatsune miku couple",
       "genre": ["Art"],
       "resolutionX": "3226",
@@ -653,6 +717,7 @@
     },
     {
       "id": 66,
+      "extend": "./extend/extend_wallpaper_66.jpg",
       "title": "Metro station",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -663,6 +728,7 @@
     },
     {
       "id": 67,
+      "extend": "./extend/extend_wallpaper_67.jpg",
       "title": "Aqua girl",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -673,6 +739,7 @@
     },
     {
       "id": 68,
+      "extend": "./extend/extend_wallpaper_68.jpg",
       "title": "Akiyama Mizuki",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -683,6 +750,7 @@
     },
     {
       "id": 69,
+      "extend": "./extend/extend_wallpaper_69.jpg",
       "title": "Mirage in distance",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -693,6 +761,7 @@
     },
     {
       "id": 70,
+      "extend": "./extend/extend_wallpaper_70.jpg",
       "title": "Neon Lights",
       "genre": ["Art"],
       "resolutionX": "4000",
@@ -703,6 +772,7 @@
     },
     {
       "id": 71,
+      "extend": "./extend/extend_wallpaper_71.jpg",
       "title": "World of Wonder",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -713,6 +783,7 @@
     },
     {
       "id": 72,
+      "extend": "./extend/extend_wallpaper_72.jpg",
       "title": "Lost in the sky",
       "genre": ["Art"],
       "resolutionX": "5662",
@@ -723,6 +794,7 @@
     },
     {
       "id": 73,
+      "extend": "./extend/extend_wallpaper_73.jpg",
       "title": "Morning coffee",
       "genre": [],
       "resolutionX": "2048",
@@ -733,6 +805,7 @@
     },
     {
       "id": 74,
+      "extend": "./extend/extend_wallpaper_74.jpg",
       "title": "Vocaloid Hatsune Miku",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -743,6 +816,7 @@
     },
     {
       "id": 75,
+      "extend": "./extend/extend_wallpaper_75.jpg",
       "title": "Miyuki",
       "genre": ["Art"],
       "resolutionX": "2480",
@@ -753,6 +827,7 @@
     },
     {
       "id": 76,
+      "extend": "./extend/extend_wallpaper_76.jpg",
       "title": "Walk in abondon city",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -763,6 +838,7 @@
     },
     {
       "id": 77,
+      "extend": "./extend/extend_wallpaper_77.jpg",
       "title": "Railway Journey",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -773,6 +849,7 @@
     },
     {
       "id": 78,
+      "extend": "./extend/extend_wallpaper_78.jpg",
       "title": "Red eyes",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -783,6 +860,7 @@
     },
     {
       "id": 79,
+      "extend": "./extend/extend_wallpaper_79.jpg",
       "title": "Quadratic element",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -793,6 +871,7 @@
     },
     {
       "id": 80,
+      "extend": "./extend/extend_wallpaper_80.jpg",
       "title": "Walking by the sea shore",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -803,6 +882,7 @@
     },
     {
       "id": 81,
+      "extend": "./extend/extend_wallpaper_81.jpg",
       "title": "Promise",
       "genre": ["Art", "Anime"],
       "resolutionX": "2560",
@@ -813,6 +893,7 @@
     },
     {
       "id": 82,
+      "extend": "./extend/extend_wallpaper_82.png",
       "title": "Golden time",
       "genre": ["Art"],
       "resolutionX": "3300",
@@ -823,6 +904,7 @@
     },
     {
       "id": 83,
+      "extend": "./extend/extend_wallpaper_83.jpg",
       "title": "Your lie in April",
       "genre": ["Anime", "Art"],
       "resolutionX": "3840",
@@ -833,6 +915,7 @@
     },
     {
       "id": 84,
+      "extend": "./extend/extend_wallpaper_84.jpg",
       "title": "Zero Two",
       "genre": ["Anime", "Art"],
       "resolutionX": "1920",
@@ -843,6 +926,7 @@
     },
     {
       "id": 85,
+      "extend": "./extend/extend_wallpaper_85.png",
       "title": "Jinhsi",
       "genre": ["Art"],
       "resolutionX": "2560",
@@ -853,6 +937,7 @@
     },
     {
       "id": 86,
+      "extend": "./extend/extend_wallpaper_86.jpg",
       "title": "Sunset and solitary flight",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -863,6 +948,7 @@
     },
     {
       "id": 87,
+      "extend": "./extend/extend_wallpaper_87.jpg",
       "title": "Sad Miku",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -873,6 +959,7 @@
     },
     {
       "id": 88,
+      "extend": "./extend/extend_wallpaper_88.jpg",
       "title": "Shiroko blue archive",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -883,6 +970,7 @@
     },
     {
       "id": 89,
+      "extend": "./extend/extend_wallpaper_89.jpg",
       "title": "Lunas guardian",
       "genre": ["Art", "Anime"],
       "resolutionX": "4500",
@@ -893,6 +981,7 @@
     },
     {
       "id": 90,
+      "extend": "./extend/extend_wallpaper_90.jpg",
       "title": "Gank - Resurrection",
       "genre": ["Art"],
       "resolutionX": "2000",
@@ -903,6 +992,7 @@
     },
     {
       "id": 91,
+      "extend": "./extend/extend_wallpaper_91.jpg",
       "title": "Makima Chainsaw-man",
       "genre": ["Art", "Anime"],
       "resolutionX": "3840",
@@ -913,6 +1003,7 @@
     },
     {
       "id": 92,
+      "extend": "./extend/extend_wallpaper_92.jpg",
       "title": "Makise Kurisu",
       "genre": ["Anime", "Art"],
       "resolutionX": "3840",
@@ -923,6 +1014,7 @@
     },
     {
       "id": 93,
+      "extend": "./extend/extend_wallpaper_93.jpg",
       "title": "Persona 3 Reload",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -933,6 +1025,7 @@
     },
     {
       "id": 94,
+      "extend": "./extend/extend_wallpaper_94.jpg",
       "title": "Arona blue archive",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -943,6 +1036,7 @@
     },
     {
       "id": 95,
+      "extend": "./extend/extend_wallpaper_95.jpg",
       "title": "Dead master b-r-shooter",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -953,6 +1047,7 @@
     },
     {
       "id": 96,
+      "extend": "./extend/extend_wallpaper_96.jpg",
       "title": "Do not mess with ammo girls",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -963,6 +1058,7 @@
     },
     {
       "id": 97,
+      "extend": "./extend/extend_wallpaper_97.jpg",
       "title": "Chainsaw-man 2077",
       "genre": ["Art", "Anime", "4K"],
       "resolutionX": "5120",
@@ -973,6 +1069,7 @@
     },
     {
       "id": 98,
+      "extend": "./extend/extend_wallpaper_98.jpg",
       "title": "Far away",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -983,6 +1080,7 @@
     },
     {
       "id": 99,
+      "extend": "./extend/extend_wallpaper_99.jpg",
       "title": "Walking on the beach",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -993,6 +1091,7 @@
     },
     {
       "id": 100,
+      "extend": "./extend/extend_wallpaper_100.jpg",
       "title": "Critical punk",
       "genre": ["Art", "Anime"],
       "resolutionX": "3840",
@@ -1003,6 +1102,7 @@
     },
     {
       "id": 101,
+      "extend": "./extend/extend_wallpaper_101.jpg",
       "title": "Type 79 Frontline",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -1013,6 +1113,7 @@
     },
     {
       "id": 102,
+      "extend": "./extend/extend_wallpaper_102.jpg",
       "title": "Furina genshin impact",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1023,6 +1124,7 @@
     },
     {
       "id": 103,
+      "extend": "./extend/extend_wallpaper_103.jpg",
       "title": "Hatsune Miku",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1033,6 +1135,7 @@
     },
     {
       "id": 104,
+      "extend": "./extend/extend_wallpaper_104.jpg",
       "title": "Romantic duet",
       "genre": ["Art", "Anime"],
       "resolutionX": "5120",
@@ -1043,6 +1146,7 @@
     },
     {
       "id": 105,
+      "extend": "./extend/extend_wallpaper_105.jpg",
       "title": "Rhythm of the Sea",
       "genre": ["Anime", "Art"],
       "resolutionX": "3639",
@@ -1053,6 +1157,7 @@
     },
     {
       "id": 106,
+      "extend": "./extend/extend_wallpaper_106.jpeg",
       "title": "Fantasy forest",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1063,6 +1168,7 @@
     },
     {
       "id": 107,
+      "extend": "./extend/extend_wallpaper_107.jpg",
       "title": "Hatsune Miku",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -1073,6 +1179,7 @@
     },
     {
       "id": 108,
+      "extend": "./extend/extend_wallpaper_108.jpg",
       "title": "Meteor streak",
       "genre": ["Anime", "Art", "4K"],
       "resolutionX": "10114",
@@ -1083,6 +1190,7 @@
     },
     {
       "id": 109,
+      "extend": "./extend/extend_wallpaper_109.jpg",
       "title": "Girl with big (personalities)",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1093,6 +1201,7 @@
     },
     {
       "id": 110,
+      "extend": "./extend/extend_wallpaper_110.jpg",
       "title": "Wings of heaven",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -1103,6 +1212,7 @@
     },
     {
       "id": 111,
+      "extend": "./extend/extend_wallpaper_111.jpg",
       "title": "Pure Morning",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -1113,6 +1223,7 @@
     },
     {
       "id": 112,
+      "extend": "./extend/extend_wallpaper_112.jpg",
       "title": "Mental Escape",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1123,6 +1234,7 @@
     },
     {
       "id": 113,
+      "extend": "./extend/extend_wallpaper_113.jpg",
       "title": "Midnight Melody",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1133,6 +1245,7 @@
     },
     {
       "id": 114,
+      "extend": "./extend/extend_wallpaper_114.jpg",
       "title": "Lost Echoes",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1143,6 +1256,7 @@
     },
     {
       "id": 115,
+      "extend": "./extend/extend_wallpaper_115.jpg",
       "title": "Nissan gtr 35",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1153,6 +1267,7 @@
     },
     {
       "id": 116,
+      "extend": "./extend/extend_wallpaper_116.jpg",
       "title": "Color wheel",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1163,6 +1278,7 @@
     },
     {
       "id": 117,
+      "extend": "./extend/extend_wallpaper_117.jpg",
       "title": "Little Alchemic",
       "genre": ["Art"],
       "resolutionX": "3700",
@@ -1173,6 +1289,7 @@
     },
     {
       "id": 118,
+      "extend": "./extend/extend_wallpaper_118.jpg",
       "title": "Princess of starry field",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1183,6 +1300,7 @@
     },
     {
       "id": 119,
+      "extend": "./extend/extend_wallpaper_119.png",
       "title": "Just the two of us",
       "genre": ["Anime"],
       "resolutionX": "1920",
@@ -1193,6 +1311,7 @@
     },
     {
       "id": 120,
+      "extend": "./extend/extend_wallpaper_120.jpg",
       "title": "Miku fallen angel",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -1203,6 +1322,7 @@
     },
     {
       "id": 121,
+      "extend": "./extend/extend_wallpaper_121.jpg",
       "title": "Asuka Langley Soryu",
       "genre": ["Anime", "Art"],
       "resolutionX": "3840",
@@ -1213,6 +1333,7 @@
     },
     {
       "id": 122,
+      "extend": "./extend/extend_wallpaper_122.jpg",
       "title": "Beyond the railroad",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1223,6 +1344,7 @@
     },
     {
       "id": 123,
+      "extend": "./extend/extend_wallpaper_123.jpg",
       "title": "Inital D Police girl",
       "genre": ["Anime", "Art"],
       "resolutionX": "3840",
@@ -1233,6 +1355,7 @@
     },
     {
       "id": 124,
+      "extend": "./extend/extend_wallpaper_124.jpg",
       "title": "School shooter",
       "genre": ["Art", "4K"],
       "resolutionX": "5630",
@@ -1243,6 +1366,7 @@
     },
     {
       "id": 125,
+      "extend": "./extend/extend_wallpaper_125.jpg",
       "title": "Night time silhouette",
       "genre": ["Art"],
       "resolutionX": "6000",
@@ -1253,6 +1377,7 @@
     },
     {
       "id": 126,
+      "extend": "./extend/extend_wallpaper_126.jpg",
       "title": "Tired of everyday grind",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -1263,6 +1388,7 @@
     },
     {
       "id": 127,
+      "extend": "./extend/extend_wallpaper_127.jpg",
       "title": "Girl vast horizon",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1273,6 +1399,7 @@
     },
     {
       "id": 128,
+      "extend": "./extend/extend_wallpaper_128.jpg",
       "title": "Shirazuku night coffee",
       "genre": ["Art", "4K"],
       "resolutionX": "3840",
@@ -1283,6 +1410,7 @@
     },
     {
       "id": 129,
+      "extend": "./extend/extend_wallpaper_129.jpg",
       "title": "Grace Field Ray",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1293,6 +1421,7 @@
     },
     {
       "id": 130,
+      "extend": "./extend/extend_wallpaper_130.jpg",
       "title": "Still in pain?",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1303,6 +1432,7 @@
     },
     {
       "id": 131,
+      "extend": "./extend/extend_wallpaper_131.jpg",
       "title": "Camus in the blue sky",
       "genre": ["Anime", "Art"],
       "resolutionX": "3840",
@@ -1313,6 +1443,7 @@
     },
     {
       "id": 132,
+      "extend": "./extend/extend_wallpaper_132.jpg",
       "title": "Garden of eden",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1323,6 +1454,7 @@
     },
     {
       "id": 133,
+      "extend": "./extend/extend_wallpaper_133.jpg",
       "title": "Moon in power lines",
       "genre": ["Art", "4K"],
       "resolutionX": "5640",
@@ -1333,6 +1465,7 @@
     },
     {
       "id": 134,
+      "extend": "./extend/extend_wallpaper_134.jpg",
       "title": "Illusion World",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1343,6 +1476,7 @@
     },
     {
       "id": 135,
+      "extend": "./extend/extend_wallpaper_135.jpg",
       "title": "Glowing world outside",
       "genre": ["Art", "4K"],
       "resolutionX": "5640",
@@ -1353,6 +1487,7 @@
     },
     {
       "id": 136,
+      "extend": "./extend/extend_wallpaper_136.jpg",
       "title": "Tom Clancy's division",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1363,6 +1498,7 @@
     },
     {
       "id": 137,
+      "extend": "./extend/extend_wallpaper_137.jpg",
       "title": "Deep blue sky",
       "genre": ["Art"],
       "resolutionX": "4673",
@@ -1373,6 +1509,7 @@
     },
     {
       "id": 138,
+      "extend": "./extend/extend_wallpaper_138.jpg",
       "title": "Kaguya Otsutsuki",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -1383,6 +1520,7 @@
     },
     {
       "id": 139,
+      "extend": "./extend/extend_wallpaper_139.jpg",
       "title": "Hope of enderlilies",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1393,6 +1531,7 @@
     },
     {
       "id": 140,
+      "extend": "./extend/extend_wallpaper_140.jpg",
       "title": "Embracing the evening",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1403,6 +1542,7 @@
     },
     {
       "id": 141,
+      "extend": "./extend/extend_wallpaper_141.jpg",
       "title": "Devil eyes",
       "genre": ["Art"],
       "resolutionX": "2994",
@@ -1413,6 +1553,7 @@
     },
     {
       "id": 142,
+      "extend": "./extend/extend_wallpaper_142.jpg",
       "title": "Yuzuriha",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -1423,6 +1564,7 @@
     },
     {
       "id": 143,
+      "extend": "./extend/extend_wallpaper_143.jpg",
       "title": "Neko girl",
       "genre": ["4K", "Art"],
       "resolutionX": "10224",
@@ -1433,6 +1575,7 @@
     },
     {
       "id": 144,
+      "extend": "./extend/extend_wallpaper_144.jpg",
       "title": "Night rain",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1443,6 +1586,7 @@
     },
     {
       "id": 145,
+      "extend": "./extend/extend_wallpaper_145.jpg",
       "title": "Heights are not scary",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1453,6 +1597,7 @@
     },
     {
       "id": 146,
+      "extend": "./extend/extend_wallpaper_146.jpg",
       "title": "Rei Ayanami",
       "genre": ["Anime", "Art", "4K"],
       "resolutionX": "3840",
@@ -1463,6 +1608,7 @@
     },
     {
       "id": 147,
+      "extend": "./extend/extend_wallpaper_147.jpg",
       "title": "Frieren: Beyond Journey's End",
       "genre": ["Anime", "Art"],
       "resolutionX": "5120",
@@ -1473,6 +1619,7 @@
     },
     {
       "id": 148,
+      "extend": "./extend/extend_wallpaper_148.jpg",
       "title": "Hatsune Miku Vocaloid",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1483,8 +1630,9 @@
     },
     {
       "id": 149,
+      "extend": "./extend/extend_wallpaper_149.jpg",
       "title": "Yukari hayasaka",
-      "genre": ["Art","Anime"],
+      "genre": ["Art", "Anime"],
       "resolutionX": "5120",
       "resolutionY": "2880",
       "size": "0.9",
@@ -1493,8 +1641,9 @@
     },
     {
       "id": 150,
+      "extend": "./extend/extend_wallpaper_150.jpg",
       "title": "Frieren Beyond Journey's End",
-      "genre": ["Anime","Art","4K"],
+      "genre": ["Anime", "Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2340",
       "size": "3.5",
@@ -1503,8 +1652,9 @@
     },
     {
       "id": 151,
+      "extend": "./extend/extend_wallpaper_151.png",
       "title": "Lucy Cyberpunk: Edgerunners",
-      "genre": ["Anime","Art","4K"],
+      "genre": ["Anime", "Art", "4K"],
       "resolutionX": "3840",
       "resolutionY": "2106",
       "size": "9.1",
@@ -1513,6 +1663,7 @@
     },
     {
       "id": 152,
+      "extend": "./extend/extend_wallpaper_152.jpg",
       "title": "Drifting Dreams",
       "genre": ["Art"],
       "resolutionX": "3000",
@@ -1523,6 +1674,7 @@
     },
     {
       "id": 153,
+      "extend": "./extend/extend_wallpaper_153.jpg",
       "title": "Arknights",
       "genre": ["Art"],
       "resolutionX": "2560",
@@ -1533,6 +1685,7 @@
     },
     {
       "id": 154,
+      "extend": "./extend/extend_wallpaper_154.jpg",
       "title": "Winter Brews",
       "genre": ["Art"],
       "resolutionX": "1920",
@@ -1543,8 +1696,9 @@
     },
     {
       "id": 155,
+      "extend": "./extend/extend_wallpaper_155.jpg",
       "title": "Lucy Cyberpunk: Edgerunners",
-      "genre": ["Anime","Art","4K"],
+      "genre": ["Anime", "Art", "4K"],
       "resolutionX": "4096",
       "resolutionY": "2494",
       "size": "2.5",
@@ -1553,6 +1707,7 @@
     },
     {
       "id": 156,
+      "extend": "./extend/extend_wallpaper_156.jpg",
       "title": "Guilt of hero",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1563,8 +1718,9 @@
     },
     {
       "id": 157,
+      "extend": "./extend/extend_wallpaper_157.jpg",
       "title": "Speed Symphony",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "4978",
       "resolutionY": "2800",
       "size": "3.3",
@@ -1573,8 +1729,9 @@
     },
     {
       "id": 158,
+      "extend": "./extend/extend_wallpaper_158.jpg",
       "title": "Frieren Beyond Journey's End",
-      "genre": ["Anime","4K","Art"],
+      "genre": ["Anime", "4K", "Art"],
       "resolutionX": "5120",
       "resolutionY": "3141",
       "size": "4.3",
@@ -1583,6 +1740,7 @@
     },
     {
       "id": 159,
+      "extend": "./extend/extend_wallpaper_159.jpg",
       "title": "Aqua dreams",
       "genre": ["Art"],
       "resolutionX": "4096",
@@ -1593,8 +1751,9 @@
     },
     {
       "id": 160,
+      "extend": "./extend/extend_wallpaper_160.jpg",
       "title": "Azuki",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2880",
       "size": "4.4",
@@ -1603,8 +1762,9 @@
     },
     {
       "id": 161,
+      "extend": "./extend/extend_wallpaper_161.png",
       "title": "Zero Two",
-      "genre": ["Art","4K","Anime"],
+      "genre": ["Art", "4K", "Anime"],
       "resolutionX": "3840",
       "resolutionY": "2160",
       "size": "1",
@@ -1613,6 +1773,7 @@
     },
     {
       "id": 162,
+      "extend": "./extend/extend_wallpaper_162.jpg",
       "title": "Art of Nature",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1623,8 +1784,9 @@
     },
     {
       "id": 163,
+      "extend": "./extend/extend_wallpaper_163.jpg",
       "title": "Floating in the sky",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5640",
       "resolutionY": "2400",
       "size": "5",
@@ -1633,6 +1795,7 @@
     },
     {
       "id": 164,
+      "extend": "./extend/extend_wallpaper_164.jpg",
       "title": "Angel in the dark",
       "genre": ["Art"],
       "resolutionX": "5640",
@@ -1643,6 +1806,7 @@
     },
     {
       "id": 165,
+      "extend": "./extend/extend_wallpaper_165.png",
       "title": "Golden Horizon",
       "genre": ["Art"],
       "resolutionX": "2976",
@@ -1653,8 +1817,9 @@
     },
     {
       "id": 166,
+      "extend": "./extend/extend_wallpaper_166.jpg",
       "title": "Zero Two shinobi",
-      "genre": ["Art","Anime"],
+      "genre": ["Art", "Anime"],
       "resolutionX": "1920",
       "resolutionY": "1080",
       "size": "1.1",
@@ -1663,6 +1828,7 @@
     },
     {
       "id": 167,
+      "extend": "./extend/extend_wallpaper_167.jpg",
       "title": "Azure Twilight",
       "genre": ["Art"],
       "resolutionX": "5000",
@@ -1673,6 +1839,7 @@
     },
     {
       "id": 168,
+      "extend": "./extend/extend_wallpaper_168.jpg",
       "title": "Moving out",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1683,8 +1850,9 @@
     },
     {
       "id": 169,
+      "extend": "./extend/extend_wallpaper_169.jpg",
       "title": "Zero Two Meow Mix",
-      "genre": ["Art","Anime"],
+      "genre": ["Art", "Anime"],
       "resolutionX": "3600",
       "resolutionY": "2025",
       "size": "1.5",
@@ -1693,8 +1861,9 @@
     },
     {
       "id": 170,
+      "extend": "./extend/extend_wallpaper_170.jpg",
       "title": "Miku: Bleeding Melody",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2880",
       "size": "3.5",
@@ -1703,8 +1872,9 @@
     },
     {
       "id": 171,
+      "extend": "./extend/extend_wallpaper_171.jpg",
       "title": "Miku: Heavenly Connection",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "3840",
       "resolutionY": "2160",
       "size": "3.7",
@@ -1713,6 +1883,7 @@
     },
     {
       "id": 172,
+      "extend": "./extend/extend_wallpaper_172.jpg",
       "title": "Helmetman",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1723,6 +1894,7 @@
     },
     {
       "id": 173,
+      "extend": "./extend/extend_wallpaper_173.jpg",
       "title": "Cyber Investigation",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1733,8 +1905,9 @@
     },
     {
       "id": 174,
+      "extend": "./extend/extend_wallpaper_174.jpg",
       "title": "Miku: Skyward Dreams",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2880",
       "size": "3.6",
@@ -1743,6 +1916,7 @@
     },
     {
       "id": 175,
+      "extend": "./extend/extend_wallpaper_175.jpg",
       "title": "Love live sunshine",
       "genre": ["Anime"],
       "resolutionX": "2560",
@@ -1753,6 +1927,7 @@
     },
     {
       "id": 176,
+      "extend": "./extend/extend_wallpaper_176.jpg",
       "title": "Miku: Luminous Waves",
       "genre": ["Art"],
       "resolutionX": "3100",
@@ -1763,6 +1938,7 @@
     },
     {
       "id": 177,
+      "extend": "./extend/extend_wallpaper_177.jpg",
       "title": "In the Heart of Study",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1773,8 +1949,9 @@
     },
     {
       "id": 178,
+      "extend": "./extend/extend_wallpaper_178.jpg",
       "title": "Kantai collection",
-      "genre": ["Art","Anime"],
+      "genre": ["Art", "Anime"],
       "resolutionX": "2560",
       "resolutionY": "1868",
       "size": "0.5",
@@ -1783,8 +1960,9 @@
     },
     {
       "id": 179,
+      "extend": "./extend/extend_wallpaper_179.jpg",
       "title": "Ikki tousen",
-      "genre": ["Anime","Art","4K"],
+      "genre": ["Anime", "Art", "4K"],
       "resolutionX": "3840",
       "resolutionY": "2160",
       "size": "1.9",
@@ -1793,8 +1971,9 @@
     },
     {
       "id": 180,
+      "extend": "./extend/extend_wallpaper_180.jpg",
       "title": "Lucy Cyberpunk: Edgerunners",
-      "genre": ["Anime","4K"],
+      "genre": ["Anime", "4K"],
       "resolutionX": "7680",
       "resolutionY": "4320",
       "size": "1.8",
@@ -1803,6 +1982,7 @@
     },
     {
       "id": 181,
+      "extend": "./extend/extend_wallpaper_181.jpg",
       "title": "Quiet Corner",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1813,8 +1993,9 @@
     },
     {
       "id": 182,
+      "extend": "./extend/extend_wallpaper_182.jpg",
       "title": "Nakiri ayame",
-      "genre": ["Anime","Art","4K"],
+      "genre": ["Anime", "Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2179",
       "size": "3.4",
@@ -1823,6 +2004,7 @@
     },
     {
       "id": 183,
+      "extend": "./extend/extend_wallpaper_183.jpg",
       "title": "One last time",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1833,8 +2015,9 @@
     },
     {
       "id": 184,
+      "extend": "./extend/extend_wallpaper_184.jpg",
       "title": "Endless Journey",
-      "genre": ["Anime","Art"],
+      "genre": ["Anime", "Art"],
       "resolutionX": "5120",
       "resolutionY": "2880",
       "size": "3.3",
@@ -1843,8 +2026,9 @@
     },
     {
       "id": 185,
+      "extend": "./extend/extend_wallpaper_185.jpg",
       "title": "Mia fujikawa",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "3840",
       "resolutionY": "2160",
       "size": "2.4",
@@ -1853,8 +2037,9 @@
     },
     {
       "id": 186,
+      "extend": "./extend/extend_wallpaper_186.jpg",
       "title": "Silent Tears",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2540",
       "size": "2.3",
@@ -1863,6 +2048,7 @@
     },
     {
       "id": 187,
+      "extend": "./extend/extend_wallpaper_187.jpg",
       "title": "In the Heat of War",
       "genre": ["Art", "4K"],
       "resolutionX": "5120",
@@ -1873,6 +2059,7 @@
     },
     {
       "id": 188,
+      "extend": "./extend/extend_wallpaper_188.jpg",
       "title": "Cosmic Snapshot",
       "genre": ["Art"],
       "resolutionX": "6000",
@@ -1883,8 +2070,9 @@
     },
     {
       "id": 189,
+      "extend": "./extend/extend_wallpaper_189.jpg",
       "title": "Ump45 Girls frontline",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2880",
       "size": "2.6",
@@ -1893,8 +2081,9 @@
     },
     {
       "id": 190,
+      "extend": "./extend/extend_wallpaper_190.jpg",
       "title": "Zero Two: Mechanical Pulse",
-      "genre": ["Anime","Art"],
+      "genre": ["Anime", "Art"],
       "resolutionX": "2560",
       "resolutionY": "1440",
       "size": "1.8",
@@ -1903,6 +2092,7 @@
     },
     {
       "id": 191,
+      "extend": "./extend/extend_wallpaper_191.jpg",
       "title": "Wuthering Waves",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1913,8 +2103,9 @@
     },
     {
       "id": 192,
+      "extend": "./extend/extend_wallpaper_192.jpg",
       "title": "Symphony of Fate",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2179",
       "size": "2.5",
@@ -1923,8 +2114,9 @@
     },
     {
       "id": 193,
+      "extend": "./extend/extend_wallpaper_193.png",
       "title": "Sky Blossom",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "3800",
       "resolutionY": "2460",
       "size": "16.2",
@@ -1933,6 +2125,7 @@
     },
     {
       "id": 194,
+      "extend": "./extend/extend_wallpaper_194.jpg",
       "title": "End of Wandering",
       "genre": ["4K"],
       "resolutionX": "5120",
@@ -1943,6 +2136,7 @@
     },
     {
       "id": 195,
+      "extend": "./extend/extend_wallpaper_195.jpg",
       "title": "Miku: Digital Dreamscape",
       "genre": ["Art"],
       "resolutionX": "3840",
@@ -1953,8 +2147,9 @@
     },
     {
       "id": 196,
+      "extend": "./extend/extend_wallpaper_196.jpg",
       "title": "Neon Flavors",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "3840",
       "resolutionY": "2160",
       "size": "2.1",
@@ -1963,8 +2158,9 @@
     },
     {
       "id": 197,
+      "extend": "./extend/extend_wallpaper_197.jpg",
       "title": "Miku: Silent Rhythm",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5000",
       "resolutionY": "2318",
       "size": "4.6",
@@ -1973,6 +2169,7 @@
     },
     {
       "id": 198,
+      "extend": "./extend/extend_wallpaper_198.jpg",
       "title": "Miku: Radiant vibe",
       "genre": ["Art"],
       "resolutionX": "5120",
@@ -1983,8 +2180,9 @@
     },
     {
       "id": 199,
+      "extend": "./extend/extend_wallpaper_199.jpg",
       "title": "When the Sun Rises",
-      "genre": ["Art","4K"],
+      "genre": ["Art", "4K"],
       "resolutionX": "5120",
       "resolutionY": "2179",
       "size": "1.6",
@@ -1993,6 +2191,7 @@
     },
     {
       "id": 200,
+      "extend": "./extend/extend_wallpaper_200.jpg",
       "title": "Lavender Rails",
       "genre": ["Art"],
       "resolutionX": "3840",
