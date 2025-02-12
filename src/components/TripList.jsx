@@ -8,7 +8,7 @@ import React, {
 } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { debounce } from "lodash";
-import "../styles/Triplist.css";
+import "../styles/TripList.css";
 import { useFetch } from "../hooks/useFetch";
 import ScrollToTop from "./ScrollToTop";
 const Modal = React.lazy(() => import("./Modal"));
