@@ -9,7 +9,7 @@
 }
 
 .triplist__hero {
-  background: url("./wallpapers/mountains.jpg");
+  background: url("/wallpapers/mountains.jpg");
   height: 586px;
   background-position: center; /* Centers the image */
   background-size: cover; /* Ensures it covers the container without distortion */
