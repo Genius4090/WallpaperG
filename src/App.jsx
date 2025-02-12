@@ -2,7 +2,7 @@ import "./styles/App.css";
 import Home from "./pages/Home";
 import TripList from "./components/TripList";
 import About from './pages/About';  // Add this import
-import Pagenotfound from "./pages/Pagenotfound";
+import PageNotFound from "./pages/PageNotFound";
 import ProfilePage from './components/ProfilePage'; // Import ProfilePage
 import Pixel from "./pages/Pixel";
 import 'animate.css';
@@ -20,7 +20,7 @@ function App() {
     createRoutesFromElements(
       <Route path="/" element={<RootLayout />}>
         <Route index element={<Home />} />
-        <Route path="*" element={<Pagenotfound />} />
+        <Route path="*" element={<PageNotFound />} />
         <Route path="cards" element={<TripList />} />
         <Route path="about" element={<About />} />
         {/* Add ProfilePage route here */}
