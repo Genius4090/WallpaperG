@@ -41,7 +41,8 @@ function TripList() {
   }, [debouncedSearch]);
 
   const handleDownload = (image) => {
-    const fileName = image.title.split(" ").join("_") + ".png"; // Use title for filename with .png extension
+    console.log(image); // Log the image object to debug
+    const fileName = (image.title ? image.title.split(" ").join("_") : "default_title") + ".png"; // Use title or fallback to default_title
   
     fetch(image.orig)
       .then(response => response.blob())
@@ -56,6 +57,7 @@ function TripList() {
       })
       .catch(error => console.error('Download error:', error));
   };
+  
   
   useEffect(() => {
     if (downloadLink) {
