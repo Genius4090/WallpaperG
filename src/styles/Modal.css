@@ -353,24 +353,24 @@
 }
 
 
+
 /* Skeleton Loader Styles */
 .modal-skeleton {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 300px;
-  background: #e0e0e0;
-  border-radius: 8px;
+  height: 602px; /* Maintain the same height as your image */
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
   animation: shimmer 1.5s infinite linear;
 }
 
 .modal-skeleton__image {
   width: 100%;
-  height: 200px;
+  height: 100%; /* Keeps the height the same as your image */
   background: #ccc;
-  margin-bottom: 16px;
   border-radius: 8px;
 }
 
@@ -378,7 +378,7 @@
   width: 80%;
   height: 20px;
   background: #ccc;
-  margin-bottom: 8px;
+  margin-top: 16px;
   border-radius: 4px;
 }
 
@@ -386,6 +386,7 @@
   width: 60%;
   height: 40px;
   background: #ccc;
+  margin-top: 16px;
   border-radius: 4px;
 }
 
