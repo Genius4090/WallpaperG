@@ -82,12 +82,22 @@ function ProfilePage() {
   };
 
   const handleDownload = (image) => {
-    const fileName = image.title.split(" ").join("_") + ".jpg"; // Use title for filename
-    const link = document.createElement("a");
-    link.href = image.orig;
-    link.download = fileName;
-    link.click();
+    const fileName = image.title.split(" ").join("_") + ".png"; // Use title for filename with .png extension
+    
+    fetch(image.orig)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch(error => console.error('Download error:', error));
   };
+  
 
   const handleEnlarge = (image) => {
     window.open(image.orig, "_blank");
