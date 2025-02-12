@@ -24,34 +24,18 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
       setIsCollected(true);
     }
   };
-  const handleDownload = (image) => {
-    const fileName = image.title.split(" ").join("_") + ".png"; // Use title for filename with .png extension
-  
-    // Check if the image URL is correct
-    if (!image.orig) {
-      console.error('Image URL is invalid');
-      return;
-    }
-  
-    fetch(image.orig)
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Image fetch failed');
-        }
-        return response.blob();
+
+  const handleDownload = () => {
+    // Fetch the data.json file from the public/data/ directory
+    fetch('/data/data.json')
+      .then(response => response.json())
+      .then(data => {
+        // Find the correct image title from data.json
+        const imageData = data.find(img => img.orig === selected.orig);
+        const fileName = imageData ? imageData.title.split(" ").join("_") + ".jpg" : "default.jpg";
+        setDownloadLink({ image: selected.orig, fileName });
       })
-      .then((blob) => {
-        const url = window.URL.createObjectURL(blob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = fileName;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-      })
-      .catch((error) => {
-        console.error('Download error:', error);
-      });
+      .catch(error => console.error('Error fetching data.json:', error));
   };
   
   
