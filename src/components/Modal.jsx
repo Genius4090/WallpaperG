@@ -24,15 +24,36 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
       setIsCollected(true);
     }
   };
-  const handleDownload = () => {
-    const fileName = selected.title.split(" ").join("_") + ".png"; // Custom file name
-    const link = document.createElement("a");
-    link.href = selected.orig;
-    link.download = fileName; // Set the custom filename
-    document.body.appendChild(link); // Append the link to the body
-    link.click(); // Trigger the download
-    document.body.removeChild(link); // Clean up the link after the download
+  const handleDownload = (image) => {
+    const fileName = image.title.split(" ").join("_") + ".png"; // Use title for filename with .png extension
+  
+    // Check if the image URL is correct
+    if (!image.orig) {
+      console.error('Image URL is invalid');
+      return;
+    }
+  
+    fetch(image.orig)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error('Image fetch failed');
+        }
+        return response.blob();
+      })
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch((error) => {
+        console.error('Download error:', error);
+      });
   };
+  
   
 
   const handleCloseModal = () => {
