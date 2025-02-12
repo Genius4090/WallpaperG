@@ -1,4 +1,3 @@
-
 import React, {
   useState,
   useEffect,
@@ -12,7 +11,7 @@ import "../styles/TripList.css";
 import { useFetch } from "../hooks/useFetch";
 import ScrollToTop from "./ScrollToTop";
 const Modal = React.lazy(() => import("./Modal"));
-import LazyBackground from './LazyBackground'; // Adjust the import path as necessary
+import LazyBackground from "./LazyBackground"; // Adjust the import path as necessary
 
 function TripList() {
   const { search } = useLocation();
@@ -41,15 +40,30 @@ function TripList() {
     return () => debouncedSearch.cancel(); // Cleanup debounced search on component unmount
   }, [debouncedSearch]);
 
+  const handleDownload = (image) => {
+    const fileName = image.title.split(" ").join("_") + ".png"; // Use title for filename with .png extension
+  
+    fetch(image.orig)
+      .then(response => response.blob())
+      .then(blob => {
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      })
+      .catch(error => console.error('Download error:', error));
+  };
+  
   useEffect(() => {
     if (downloadLink) {
-      const link = document.createElement("a");
-      link.href = downloadLink.image;
-      link.download = downloadLink.fileName; // Use the custom filename here
-      link.click();
+      handleDownload(downloadLink);
       setDownloadLink(null); // Clear the download link state after download
     }
   }, [downloadLink]);
+  
 
   const openModal = (item) => {
     setModal(true);
@@ -160,9 +174,13 @@ function TripList() {
             >
               4K
             </button>
-            <button onClick={handleRandomize} className="filter_btn reload__btn"><i class='bx bx-repost'></i></button>
+            <button
+              onClick={handleRandomize}
+              className="filter_btn reload__btn"
+            >
+              <i class="bx bx-repost"></i>
+            </button>
           </div>
-        
         </div>
       </div>
 
@@ -267,8 +285,11 @@ function TripList() {
           {error && <h1 className="loadingText">{error}</h1>}
           {displayedList && displayedList.length === 0 && !loading && (
             <div className="notfound__box animated__animated animate__fadeIn">
-                <div className="notfound__message__box">
-              <h2 className="notfound__message__box__text"> No wallpapers found </h2>
+              <div className="notfound__message__box">
+                <h2 className="notfound__message__box__text">
+                  {" "}
+                  No wallpapers found{" "}
+                </h2>
               </div>
               <video
                 className=""
@@ -280,22 +301,22 @@ function TripList() {
               >
                 <source src="./extra/nowallpaper.webm" type="video/webm" />
               </video>
-            
             </div>
           )}
-      {displayedList &&
-  displayedList.map((obj) => (
-    <div key={obj.id} className="triplist__card animate__animated animate__fadeInUp">
-      <LazyBackground
-        className="triplist__image"
-        src={obj.orig}
-        alt={obj.title}
-        onClick={() => openModal(obj)}
-      />
-    </div>
-  ))}
-
-
+          {displayedList &&
+            displayedList.map((obj) => (
+              <div
+                key={obj.id}
+                className="triplist__card animate__animated animate__fadeInUp"
+              >
+                <LazyBackground
+                  className="triplist__image"
+                  src={obj.orig}
+                  alt={obj.title}
+                  onClick={() => openModal(obj)}
+                />
+              </div>
+            ))}
         </div>
 
         {visibleCount < filteredList.length && (
