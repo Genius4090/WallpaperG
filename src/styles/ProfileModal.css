@@ -1,0 +1,153 @@
+/* Modal overlay and modal content */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap');
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: rgb(45, 45, 45);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+
+
+}
+
+/* Profile Picture Section */
+.profile-photo-label {
+  display: block;
+  margin-top: 15px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.profile-image-container {
+  position: relative;
+  display: inline-block;
+ 
+}
+.label__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-preview-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hidden-file-input {
+  display: none;
+
+}
+
+/* Pen Icon (for changing photo) */
+.pen-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  border-radius: 50%;
+  display: none;
+  width: 35px;
+  height: 35px;
+
+}
+
+@media (max-width: 1200px) {
+  .pen-icon{
+    display: block;
+  }
+}
+.pen__icon__icon__box{
+font-size: 24px;
+  width: 100%;
+  height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+  border-radius: 50%;
+
+}
+
+.profile__modal__heading{
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.profile__modal__input{
+
+ padding: 8px;
+
+font-size: 20px;
+ color: white;
+ border-radius: 5px;
+ font-family: 'Inter', sans-serif;
+ text-align: center;
+}
+.profile__modal__bio__label{
+  font-family: 'Inter', sans-serif;
+  text-align: start;
+  color: white;
+
+
+}
+.profile__modal__textarea{
+  width: 100%;
+
+  resize: none;
+  overflow: hidden;
+  border: none;
+  text-align: center;
+   margin-top: 5px;
+  
+}
+
+.modal-profile-image-box{
+  margin-top: 10px;
+}
+
+.profile__modal__btn__box{
+width: 100%;
+margin-top: 10px;
+display: flex ;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.profile__modal__save__btn{
+  width: 80px;
+  padding: 6px;
+  background-color: #ff00aa;
+  border-radius: 5px;
+  color: white;
+}
+.profile__modal__close__btn{
+  width: 80px;
+  padding: 6px;
+  background-color: #134be7;
+  border-radius: 5px;
+  color: white;
+}

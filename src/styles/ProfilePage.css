@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap");
+
+.profile__box {
+  position: relative;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.profile-card {
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  background-position: center;
+  border-radius: 9999px;
+  background-size: cover;
+
+  /* Ensures the image covers the entire element */
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;  /* ensures the image covers the div completely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  image-rendering: -webkit-optimize-contrast; /* Smooth rendering for webkit browsers */
+  image-rendering: -moz-crisp-edges; /* Crisp rendering for Firefox */
+  image-rendering: -o-crisp-edges; /* Crisp rendering for Opera */
+  image-rendering: pixelated; /* Pixelated rendering as a fallback */
+}
+
+.profile__layout {
+  top: 120px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.background__edit__btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* background-color: transparent; */
+  color: rgba(255, 255, 255, 0.541);
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.background__edit__btn:hover {
+  color: white;
+}
+.edit__box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  margin-bottom: 18px;
+  margin-top: 60px;
+}
+.collection__edit__icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+.profile__name {
+  color: rgba(255, 255, 255, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 30.45px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 18px;
+}
+
+
+.profile-image-container:hover .pen-icon {
+  display: block;
+}
+
+.collected_ul {
+  width: 100%;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the profile page */
+
+.next__page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+}
+.show__more {
+  width: 120px;
+}
+.pagination__btn {
+  margin: 10px 5px;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(26, 26, 26);
+  color: white;
+  border-radius: 5px;
+}
+.pagination__btn.active {
+  background-color: #3b9cad; /* Change this color as needed */
+  color: white;
+}
+
+/* Section containing all collected images */
+.collection-section {
+  margin-top: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first__box {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.collection-counter {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 20px;
+}
+.collection__text {
+  margin: 0px 5px;
+}
+.collection__image__icon {
+  width: 24px;
+  height: 24px;
+}
+.collection-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.collection-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  .collection-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .collection-card {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+/* Modal background overlay */
+.bg-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensures the modal is on top */
+
+}
+
+/* Modal content box */
+.bg-modal-content {
+  background: rgb(45, 45, 45);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%; /* Adjust width as needed */
+  max-width: 700px; /* Limit the max width */
+ 
+}
+
+.bg__modal__first__box{
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+/* Header text inside the modal */
+.bg__modal__first__box__text{
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46.8px;
+  letter-spacing: 0%;  
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Container for background options (images) */
+.bg-options {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap; /* Wraps images if necessary */
+  margin: 20px 0px;
+}
+
+/* Individual background option image */
+.bg-option {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensure images cover the area without distortion */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Hover effect on images */
+.bg-option:hover {
+  opacity: 0.8;
+}
+
+/* Close button at the bottom of the modal */
+.bg-modal-content button {
+
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+
+
+
+/* Container for the image and buttons */
+
+
+.remove-btn:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+
+.collected_card {
+  border: none;
+  overflow: hidden; /* Ensures no overflow */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Makes the card content align vertically */
+  align-items: center;
+  margin-bottom: 20px; /* Adjusts spacing between cards */
+  margin: 10px 5px;
+
+}
+.collected_card {
+  border: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 10px 5px;
+}
+
+.image-container {
+  width: 380px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+/* Adjust other styles as necessary */
+
+
+.card__father {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* Buttons on top of the image */
+.image-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  visibility: hidden;
+}
+
+.image-container:hover .image-buttons {
+  opacity: 1;
+  visibility: visible;
+}
+
+.image__btn__download {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image__btn__download:hover {
+  background-color: rgba(255, 0, 170, 1);
+}
+.image__btn__enlarge:hover {
+  background-color: #6200ea;
+}
+.image__btn__enlarge {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile__image__download__icon,
+.profile__image__enlarge__icon {
+  margin-right: 2px;
+}
+
+/* Remove/edit button (now below the image, using flex-column) */
+.remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 162, 255, 0.7);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 10; /* Ensures it's above the image */
+}
+
+.remove-btn:hover {
+  background-color: rgba(255, 0, 0, 0.8); /* Slightly lighter red on hover */
+}
+
+/* Collection image list styling */
+.collected_ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.profile__edit__btn {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+.profile__change__box {
+  margin: 5px 0px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.profile__description {
+  color: white;
+  margin: 14px 4px 12px 4px;
+  text-align: center;
+  max-width: 100%; /* Allow the container to expand up to the width of the screen */
+  width: auto; /* Allow the width to adjust dynamically based on content */
+  word-wrap: break-word; /* Break long words to prevent overflow */
+  white-space: normal; /* Ensure the text wraps to the next line */
+  padding: 10px; /* Optional: padding for better spacing */
+}
+
+/* Add responsiveness for small screens */
+@media (max-width: 320px) {
+  .profile__description {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin: 8px 2px; /* Adjust margin for better spacing */
+    padding: 8px; /* Adjust padding for smaller screens */
+  }
+}
+
+
+.profile__change__btn {
+  width: 300px;
+  height: 40px;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 14px 8px 14px;
+  gap: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-family: "Inter", sans-serif;
+}
+
+
+
+@media (max-width: 460px) {
+  
+  .bg__modal__first__box__text{
+  
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  
+  .bg__modal__first__box__text{
+  
+    font-size: 16px;
+  }
+}
+
+
+.image-container {
+  width: 380px;
+  height: 250px;
+  background-image: url(placeholder.jpg); /* Fallback image */
+  background-size: cover; /* Fills the container while maintaining aspect ratio */
+  background-position: center; /* Centers the image within the container */
+  background-repeat: no-repeat; /* Prevents tiling if the image is smaller */
+  position: relative; /* For positioning the buttons */
+  border-radius: 8px;
+  overflow: hidden; /* Ensures the image doesn't overflow the container */
+}
+
