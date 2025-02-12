@@ -1,14 +1,14 @@
 import React, { useEffect, useState, memo } from 'react';
 import '../styles/Modal.css';
 
-function Modal({ selected, closeModal }) {
+function Modal({ selected, closeModal}) {
   const [isCollected, setIsCollected] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isClosing, setIsClosing] = useState(false);
 
   // Check if the image is in the collection when the modal opens
   useEffect(() => {
     const currentCollection = JSON.parse(localStorage.getItem('collectedImages')) || [];
-    setIsCollected(currentCollection.some((item) => item.orig === selected.orig));
+    setIsCollected(currentCollection.some((item) => item.orig === selected.orig)); 
   }, [selected.orig]);
 
   const handleToggleCollection = () => {
@@ -42,27 +42,28 @@ function Modal({ selected, closeModal }) {
       .catch(error => console.error('Download error:', error));
   };
 
-  const handleCloseModal = (e) => {
-    if (e.target.classList.contains('modal-overlay')) {
+  const handleCloseModal = () => {
+    setIsClosing(true);
+    setTimeout(() => {
       closeModal();
-    }
+    }, 300);
   };
 
   return (
     <div className="modal-overlay" onClick={handleCloseModal}>
-      <div className="triplist__modal__content">
+      <div
+        className={`triplist__modal__content animate__animated ${isClosing ? 'animate__fadeOutUp' : 'animate__fadeInDown'}`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <div className='modal__box1'>
           <p className='modal__title'>{selected.title}</p>
-          <i onClick={closeModal} className="bx bx-x modal__close__btn"></i>
+          <i onClick={handleCloseModal} className="bx bx-x modal__close__btn"></i>
         </div>
         <div className='modal__image__box'>
-          {isLoading && <p className='loading__text'>Loading...</p>}
           <img
             className="modal-image"
             src={selected.orig}
             alt={selected.title}
-            onLoad={() => setIsLoading(false)}
-            style={{ display: isLoading ? 'none' : 'block' }}
           />
         </div>
 
