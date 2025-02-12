@@ -26,6 +26,8 @@ function Modal({ selected, closeModal, setDownloadLink, handleAddToCollection })
   };
 
   const handleDownload = () => {
+    console.log('Selected object:', selected); // Log the selected object to debug
+
     const fileName = selected.title ? selected.title.split(" ").join("_") + ".jpg" : "default_title.jpg";
 
     fetch(selected.orig)
